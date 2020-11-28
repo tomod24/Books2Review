@@ -16,8 +16,8 @@
 	<header>
         <!-- top navbar -->
 		<nav class="nav-extended text-shadow light-blue darken-1">
-			<div class="nav-wrapper grey darken-3">
-				<a href="{{ url_for('get_tasks') }}" class="brand-logo center cyan-text text-lighten-1 grey darken-3">Books 2 Review</a>
+			<div class="nav-wrapper orange darken-4">
+				<a href="{{ url_for('get_tasks') }}" class="brand-logo center white-text">Books 2 Review</a>
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="{{ url_for('get_tasks') }}">Home</a></li>
@@ -37,8 +37,8 @@
 		</nav>
 
         <!-- mobile sidenav -->
-		<ul class="sidenav" id="mobile-demo">
-            <li><h4 class="center-align light-blue-text text-darken 4">Task Manager</h4></li>
+		<ul class="sidenav grey darken-3" id="mobile-demo">
+            <li><h4 class="center-align orange-text text-darken-4">Task Manager</h4></li>
             <li><a href="{{ url_for('get_tasks') }}">Home</a></li>
             {% if session.user %}
                 <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>

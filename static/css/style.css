@@ -14,3 +14,11 @@
     margin: 5px;
     line-height: 42px;
 }
+
+html { 
+  background: url("https://media.istockphoto.com/photos/row-of-old-books-with-colorful-covers-on-pastel-blue-background-up-picture-id1126130554?k=6&m=1126130554&s=170667a&w=0&h=Q5yME6gGtwJGY1uNAPRzy1v1dQ0jlD6GuPNzCtWUsIE=") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
