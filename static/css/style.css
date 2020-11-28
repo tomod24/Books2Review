@@ -22,3 +22,16 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+
+
+/*footer styling for remaining at the bottom of the page and being responsive with the website cotent*/
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
