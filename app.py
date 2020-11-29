@@ -126,11 +126,11 @@ def add_task():
             "created_by": session["user"]
         }
         mongo.db.books.insert_one(task)
-        flash("Task Successfully Added")
+        flash("Book Successfully Added")
         return redirect(url_for("get_books"))
 
     categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template("add_task.html", categories=categories)
+    return render_template("book.html", categories=categories)
 
 
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])

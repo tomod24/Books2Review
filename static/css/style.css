@@ -35,3 +35,9 @@ html {
   main {
     flex: 1 0 auto;
   }
+
+ .container-fluid 
+ {  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
