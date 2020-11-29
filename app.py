@@ -17,6 +17,9 @@ app.secret_key = os.environ.get("SECRET_KEY")
 
 mongo = PyMongo(app)
 
+@app.route('/file/<filename>')
+def file(filename):
+   return mongo.send_file(filename)
 
 @app.route("/get_tasks")
 def get_tasks():
@@ -27,14 +30,14 @@ def get_tasks():
 @app.route("/get_books")
 def get_books():
     books = list(mongo.db.books.find())
-    return render_template("books.html", books = books)
+    return render_template("get_books.html", books = books)
 
 
 @app.route("/search", methods=["GET", "POST"])
 def search():
     query = request.form.get("query")
-    tasks = list(mongo.db.tasks.find({"$text": {"$search": query}}))
-    return render_template("tasks.html", tasks=tasks)
+    books = list(mongo.db.tasks.find({"$text": {"$search": query}}))
+    return render_template("get_books.html", books=books)
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
