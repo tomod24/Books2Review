@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-    <h3 class="grey-text shadow text-darken-3 center">Find Books</h3>
+    <h3 class="grey-text shadow text-darken-3 center">Welcome to Books 2 Review</h3>
     <div class="row card-panel grey darken-3">
         <form action="{{ url_for('search') }}" method="post" class="col s12">
             <div class="row valign-wrapper center-align">
@@ -11,7 +11,7 @@
                 </div>
                 <div class="col s12 m4">
                     <a href="{{ url_for('get_books') }}" class="orange darken-4 btn text-shadow">Reset</a>
-                    <button type="submit" class="orange darken-4  btn text-shadow">
+                    <button type="submit" class="orange darken-4 btn text-shadow">
                         <i class="fas fa-search left"></i> Search
                     </button>
                 </div>
