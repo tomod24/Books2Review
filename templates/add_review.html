@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <h3 class="light-blue-text text-darken-4 center-align">Add Review</h3>
+
+    <div class="row card-panel grey lighten-5">
+        <form class="col s12" method="POST" action="{{ url_for('add_task') }}">
+            <!-- book title -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-book prefix light-blue-text text-darken-4"></i>
+                    <input id="book_title" name="book_title" minlength="5" maxlength="50"
+                        type="text" class="validate" required>
+                    <label for="book_title">Book Title</label>
+                </div>
+            </div>
+            <!-- book author -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-pen prefix light-blue-text text-darken-4"></i>
+                    <input id="book_author" name="book_author" minlength="5" maxlength="50"
+                        type="text" class="validate" required>
+                    <label for="book_author">Book Author</label>
+                </div>
+            </div>
+            <!-- book genre -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-pen prefix light-blue-text text-darken-4"></i>
+                    <input id="book_genre" name="book_genre" minlength="5" maxlength="50"
+                        type="text" class="validate" required>
+                    <label for="book_genre">Book Genre</label>
+                </div>
+            </div>                          
+            <!-- book review -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-writing prefix light-blue-text text-darken-4"></i>
+                    <textarea id="book_review" name="book_review" minlength="5"
+                        maxlength="300" class="materialize-textarea validate" required></textarea>
+                    <label for="book_review">Book Review</label>
+                </div>
+            </div>
+            <!-- Book cover image link input -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-picture prefix">image</i>
+                    <input id="book_cover" name="book_cover" type="text">
+                    <label for="book_cover">Link to book cover image</label>
+                </div>
+            <!-- submit button -->
+            <div class="row">
+                <div class="col s12 center-align">
+                    <button type="submit" class="btn-large light-blue darken-1 text-shadow">
+                        Add Review <i class="fas fa-plus-square right"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+{% endblock %}
