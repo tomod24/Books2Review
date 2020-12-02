@@ -36,7 +36,9 @@ html {
     flex: 1 0 auto;
   }
 
- .container-fluid 
+
+/*centered the container-fluid on the page if required this will amended for individual requirements.*/
+ .container-sm
  {  display: flex;
   justify-content: center;
   align-items: center;

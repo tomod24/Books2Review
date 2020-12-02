@@ -113,24 +113,30 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/add_task", methods=["GET", "POST"])
-def add_task():
-    if request.method == "POST":
-        is_urgent = "on" if request.form.get("is_urgent") else "off"
-        task = {
-            "category_name": request.form.get("category_name"),
-            "task_name": request.form.get("task_name"),
-            "task_description": request.form.get("task_description"),
-            "is_urgent": is_urgent,
-            "due_date": request.form.get("due_date"),
+@app.route("/add_book", methods=["GET", "POST"])
+def add_book():
+    if request.method == "POST" and 'book_cover' in request.files:
+        book = {
+            "title": request.form.get("book_title"),
+            "author": request.form.get("book_author"),
+            "genre": request.form.get("book_genre"),
+            "year": request.form.get("book_year"),
+            "description": request.form.get("book_description"),
             "created_by": session["user"]
         }
-        mongo.db.books.insert_one(task)
+        new_book = mongo.db.books.insert_one(book)
+        cover_image = request.files['book_cover']
+        # have unique filename based on id of newly added book
+        mongo.save_file(str(new_book.inserted_id) + "_" + cover_image.filename, cover_image)
+        mongo.db.books.update_one(
+            {'_id': new_book.inserted_id},
+            {
+                '$set': {'book_cover': str(new_book.inserted_id) + "_" + cover_image.filename}
+            }
+        )
         flash("Book Successfully Added")
         return redirect(url_for("get_books"))
-
-    categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template("book.html", categories=categories)
+    return render_template("add_book.html")
 
 
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])
