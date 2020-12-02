@@ -1,16 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
-
-    <h3 class="grey-text shadow text-darken-3 center-align">Add Review</h3>
-
+    <h3 class="grey-text shadow text-darken-3 center-align">Add Book</h3>
     <div class="row card-panel grey darken-3">
-        <form class="col s12" method="POST" action="{{ url_for('add_task') }}">
+        <form class="col s12" method="POST" action="{{ url_for('add_book') }}" enctype="multipart/form-data">
             <!-- book title -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-book prefix white-text"></i>
                     <input id="book_title" name="book_title" minlength="5" maxlength="50"
-                        type="text" class="validate" required>
+                           type="text" class="validate" required>
                     <label for="book_title">Book Title</label>
                 </div>
             </div>
@@ -19,7 +17,7 @@
                 <div class="input-field col s12">
                     <i class="fas fa-user-edit prefix white-text"></i>
                     <input id="book_author" name="book_author" minlength="5" maxlength="50"
-                        type="text" class="validate" required>
+                           type="text" class="validate" required>
                     <label for="book_author">Book Author</label>
                 </div>
             </div>
@@ -28,36 +26,43 @@
                 <div class="input-field col s12">
                     <i class="fas fa-list prefix white-text"></i>
                     <input id="book_genre" name="book_genre" minlength="5" maxlength="50"
-                        type="text" class="validate" required>
+                           type="text" class="validate" required>
                     <label for="book_genre">Book Genre</label>
                 </div>
-            </div>                          
-            <!-- book review -->
+            </div>
+            <!-- book year -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-pen prefix white-text"></i>
-                    <input id="book_review" name="book_review" minlength="5" maxlength="50"
-                        type="text" class="validate" required>
-                    <label for="book_review">Book Review</label>
+                    <input id="book_year" name="book_year" minlength="4" maxlength="4"
+                           type="text" class="validate" required>
+                    <label for="book_year">Year Published</label>
                 </div>
-            </div>  
-            <!-- Book cover image link input -->
+            </div>
+            <!-- Book cover image -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="fas fa-image prefix white-text"></i>
-                    <input id="book_cover" name="book_cover" type="text">
-                    <label for="book_cover">Link to book cover image</label>
+                    <input id="book_cover" name="book_cover" type="file" class="validate" required>
+                    <label for="book_cover">Cover Art</label>
+                </div>
+            </div>
+            <!-- Book description -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="fas fa-align-left prefix white-text"></i>
+                    <input id="book_description" name="book_description" class="validate" minlength="5" maxlength="500" required>
+                    <label for="book_description" data-error="This field is required">Book Description</label>
                 </div>
             </div>
             <!-- submit button -->
             <div class="row">
                 <div class="col s12 center-align">
                     <button type="submit" class="btn-large orange darken-4 text-shadow">
-                        Add Review <i class="fas fa-plus-square right"></i>
+                        Add Book <i class="fas fa-plus-square right"></i>
                     </button>
                 </div>
             </div>
         </form>
     </div>
-
 {% endblock %}
