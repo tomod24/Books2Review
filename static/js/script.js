@@ -1,8 +1,13 @@
 /*
     jQuery for MaterializeCSS initialization
 */
-
+// set array of selectors we want to match heights for:
 $(document).ready(function () {
+   var maxHeight = 0;
+    $(".card-content").each(function(){
+       if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+    });
+    $(".card-content").height(maxHeight);
     $(".sidenav").sidenav({edge: "right"});
     $(".collapsible").collapsible();
     $(".tooltipped").tooltip();
@@ -15,7 +20,6 @@ $(document).ready(function () {
             done: "Select"
         }
     });
-
     validateMaterializeSelect();
     function validateMaterializeSelect() {
         let classValid = { "border-bottom": "1px solid #4caf50", "box-shadow": "0 1px 0 0 #4caf50" };
