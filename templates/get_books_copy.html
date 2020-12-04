@@ -50,17 +50,25 @@
    <!-- <form>
       <div class="col s3"><img src="{{url_for('file', filename=books['book_cover'])}}" alt="cover art"/></div>
     </form>-->
+{% endblock %}
 
-    <div class="container">
-  <div class="row">
-          <div class="col"><img src="https://images-na.ssl-images-amazon.com/images/I/51N5UHqfgGL._SX325_BO1,204,203,200_.jpg"></div>
-      <p>Luke Skywalker was a twenty-year-old who lived and worked on his uncle's farm on the remote planet of Tatooine...and he was bored beyond belief. He yearned for adventures that would take him beyond the...</p>
-          <div class="col"><img src="https://images-na.ssl-images-amazon.com/images/I/51N5UHqfgGL._SX325_BO1,204,203,200_.jpg"></div>
-      <p>Luke Skywalker was a twenty-year-old who lived and worked on his uncle's farm on the remote planet of Tatooine...and he was bored beyond belief. He yearned for adventures that would take him beyond the...</p>
-          <div class="col"><img src="https://images-na.ssl-images-amazon.com/images/I/51N5UHqfgGL._SX325_BO1,204,203,200_.jpg"></div>
-      <p>Luke Skywalker was a twenty-year-old who lived and worked on his uncle's farm on the remote planet of Tatooine...and he was bored beyond belief. He yearned for adventures that would take him beyond the...</p>
-          <div class="col"><img src="https://images-na.ssl-images-amazon.com/images/I/51N5UHqfgGL._SX325_BO1,204,203,200_.jpg"></div>
-      <p>Luke Skywalker was a twenty-year-old who lived and worked on his uncle's farm on the remote planet of Tatooine...and he was bored beyond belief. He yearned for adventures that would take him beyond the...</p>
-  </div>
-  </div>
+
+{% if books|length > 0 %}
+  <ul class="collapsible">
+         {% for book in books %}
+                <div class="col s12 m6 l4 xl2 ">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="{{ url_for('file', filename=book['book_cover']) }}" alt="Cover Art for{{ book.title }}"/>
+                        </div>
+                        <div class="card-content">
+                            <p><strong>{{ book.title }}</strong></p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+    </ul>
+    {% else %}
+        <h3 class="grey-text text-darken-3 center-align">No Results Found</h3>
+    {% endif %}
 {% endblock %}
