@@ -22,10 +22,10 @@
 {% if books|length > 0 %}
     <div class="row">
      {% for book in books %}
-            <div class="col s12 m6 l4 xl2 ">
+            <div class="col s12 m6 l4 xl2">
                 <div class="card">
                     <div class="card-image">
-                        <img src="{{ url_for('file', filename=book['book_cover']) }}" alt="Cover Art for{{ book.title }}"/>
+                        <img src="{{ url_for('file', filename=book['book_cover']) }} "  alt="Cover Art for{{ book.title }}"/>
                     </div>
                     <div class="card-content">
                         <p><strong>{{ book.title }}</strong></p>
@@ -35,7 +35,7 @@
         {% endfor %}
     </div>
 {% else %}
-    <h3 class="grey-text text-darken-3 center-align">No Results Found</h3>
+    <h3 class="grey-text text-darken-3 left-align">No Results Found</h3>
 {% endif %}
 {% endblock %}
             
