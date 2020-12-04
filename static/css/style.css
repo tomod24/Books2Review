@@ -48,3 +48,12 @@ html {
     margin-top: 45px;
    color: gray;
 }
+
+/*book styling when displaying*/
+.card .card-image img {
+    max-height: 150px;
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+    height: center;
+}
