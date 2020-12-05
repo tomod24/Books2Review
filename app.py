@@ -148,8 +148,6 @@ def add_book():
                 '$set': {'book_cover': str(new_book.inserted_id) + "_" + cover_image.filename}
             }
         )
-        return redirect(url_for("get_books"))
-    flash("Book Successfully Added")
     return redirect(url_for("get_books"))
 
 
@@ -220,7 +218,7 @@ def delete_category(category_id):
 
 @app.route("/add_review/<book_id>", methods=["GET", "POST"])
 def add_review(book_id):
-    if session["user"]:
+    if session.get("user"):
         if request.method == "POST":
             review = {
                 "book_id": book_id,
@@ -230,7 +228,9 @@ def add_review(book_id):
             }
             mongo.db.reviews.insert_one(review)
             flash("Review Successfully Added")
-            return redirect(url_for("book_detail", book_id))
+            book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
+            reviews = []
+            return render_template("book_detail.html", book = book, reviews = reviews)
         else: 
             book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
             return render_template("add_review.html", book=book)
