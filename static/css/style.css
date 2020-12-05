@@ -57,3 +57,8 @@ html {
     margin: 0 auto;
     height: center;
 }
+
+/*switch margin*/
+.switch {
+    margin-left: 40px;
+}
