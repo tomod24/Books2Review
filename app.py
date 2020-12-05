@@ -4,6 +4,7 @@ from flask import (
     redirect, request, session, url_for)
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
+from datetime import date
 from werkzeug.security import generate_password_hash, check_password_hash
 if os.path.exists("env.py"):
     import env
@@ -36,7 +37,8 @@ def get_books():
 @app.route("/book_detail/<book_id>", methods=["GET"])
 def book_detail(book_id):
     book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
-    reviews = []
+    reviews = list(mongo.db.reviews.find({'book_id': book_id}))
+    print("Number of reviews", len(reviews))
     return render_template("book_detail.html", book = book, reviews = reviews)
 
 
@@ -224,13 +226,15 @@ def add_review(book_id):
                 "book_id": book_id,
                 "islike": request.form.get("islike"),
                 "comment": request.form.get("comment"),
-                "user_id": session["user"]
+                "user_id": session["user"],
+                "creative_date": date.today()
             }
             mongo.db.reviews.insert_one(review)
             flash("Review Successfully Added")
             book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
             reviews = []
-            return render_template("book_detail.html", book = book, reviews = reviews)
+            #return render_template("book_detail.html", book = book, reviews = reviews)
+            return redirect(url_for("book_detail", book_id=book._id))
         else: 
             book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
             return render_template("add_review.html", book=book)
