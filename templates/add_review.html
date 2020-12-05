@@ -4,7 +4,7 @@
     <h3 class="light-blue-text text-darken-4 center-align">Add Review for {{ book.title }}</h3>
 
     <div class="row card-panel shadow text-darken-3">
-            <form class="col s12" method="POST" action="{{ url_for('add_review', book_id=book.id) }}">
+            <form class="col s12" method="POST" action="{{ url_for('add_review', book_id=book._id) }}">
             <!-- book title                  
                 "islike": request.form.get("islike"),
                 "comment": request.form.get("comment"),
