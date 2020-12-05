@@ -226,14 +226,12 @@ def add_review(book_id):
                 "book_id": book_id,
                 "islike": request.form.get("islike"),
                 "comment": request.form.get("comment"),
-                "user_id": session["user"],
-                "creative_date": date.today()
+                "user_id": session["user"]
+                #"creative_date": date.today()
             }
             mongo.db.reviews.insert_one(review)
             flash("Review Successfully Added")
             book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
-            reviews = []
-            #return render_template("book_detail.html", book = book, reviews = reviews)
             return redirect(url_for("book_detail", book_id=book._id))
         else: 
             book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
