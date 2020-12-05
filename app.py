@@ -32,8 +32,16 @@ def get_books():
     books = list(mongo.db.books.find())
     return render_template("get_books.html", books = books)
 
+
 @app.route("/book_detail/<book_id>", methods=["GET"])
 def book_detail(book_id):
+    book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
+    reviews = []
+    return render_template("book_detail.html", book = book, reviews = reviews)
+
+
+@app.route("/book_review_edit/<book_id>/<user_id>", methods=["GET", "POST"])
+def book_review_edit(book_id, user_id):
     book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
     reviews = []
     return render_template("book_detail.html", book = book, reviews = reviews)
@@ -140,9 +148,9 @@ def add_book():
                 '$set': {'book_cover': str(new_book.inserted_id) + "_" + cover_image.filename}
             }
         )
-        flash("Book Successfully Added")
         return redirect(url_for("get_books"))
-    return render_template("add_book.html")
+    flash("Book Successfully Added")
+    return redirect(url_for("get_books"))
 
 
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])
@@ -209,6 +217,25 @@ def delete_category(category_id):
     flash("Category Successfully Deleted")
     return redirect(url_for("get_categories"))
 
+
+@app.route("/add_review/<book_id>", methods=["GET", "POST"])
+def add_review(book_id):
+    if session["user"]:
+        if request.method == "POST":
+            review = {
+                "book_id": book_id,
+                "islike": request.form.get("islike"),
+                "comment": request.form.get("comment"),
+                "user_id": session["user"]
+            }
+            mongo.db.reviews.insert_one(review)
+            flash("Review Successfully Added")
+            return redirect(url_for("book_detail", book_id))
+        else: 
+            book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
+            return render_template("add_review.html", book=book)
+    flash("You Must Login To Add A Review")
+    return redirect(url_for("login"))
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
