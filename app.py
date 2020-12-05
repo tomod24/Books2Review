@@ -32,11 +32,17 @@ def get_books():
     books = list(mongo.db.books.find())
     return render_template("get_books.html", books = books)
 
+@app.route("/book_detail/<book_id>", methods=["GET"])
+def book_detail(book_id):
+    book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
+    reviews = []
+    return render_template("book_detail.html", book = book, reviews = reviews)
+
 
 @app.route("/search", methods=["GET", "POST"])
 def search():
     query = request.form.get("query")
-    books = list(mongo.db.tasks.find({"$text": {"$search": query}}))
+    books = list(mongo.db.books.find({"$text": {"$search": query}}))
     return render_template("get_books.html", books=books)
 
 @app.route("/register", methods=["GET", "POST"])

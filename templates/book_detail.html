@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+    <h3 class="grey-text shadow text-darken-3 center">Welcome to Books 2 Review</h3>
+ 
+    <div class="row">
+            <div class="col s12 m6 l4 xl2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="{{ url_for('file', filename=book['book_cover']) }} "  alt="Cover Art for{{ book.title }}"/>
+                    </div>
+                    <div class="card-content">
+                        <p><strong>{{ book.objectID }}</strong></p>
+                    </div>
+                </div>
+            </div>
+    </div>
+{% endblock %}
+            
