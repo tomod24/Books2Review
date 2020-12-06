@@ -226,8 +226,8 @@ def add_review(book_id):
                 "book_id": book_id,
                 "islike": request.form.get("islike"),
                 "comment": request.form.get("comment"),
-                "user_id": session["user"]
-                #"creative_date": date.today()
+                "user_id": session["user"],
+                "create_date": datetime.now()
             }
             mongo.db.reviews.insert_one(review)
             flash("Review Successfully Added")

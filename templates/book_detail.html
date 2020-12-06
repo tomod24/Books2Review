@@ -51,6 +51,8 @@
       </div>
       {% else %}
       <h3 class="grey-text text-darken-3 left-align">No Reviews</h3>
+      {% if review.create_date %}
+            {{ review.create_date.strftime('%Y-%m-%d') }}
       {% endif %}
       <a href="{{ url_for('add_review', book_id=book._id) }}" class="btn-small light-blue lighten-1">Add Review</a>
    </div>
