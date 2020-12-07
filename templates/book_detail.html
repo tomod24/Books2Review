@@ -48,6 +48,10 @@
                                 <div class="collapsible-body">
                                     <strong>Review Details</strong>
                                     <p>{{ review.comment }}</p>
+                                    <a href="{{ url_for('add_review') }}" class="btn-small red text-shadow">
+                                    Cancel <i class="fas fa-times-circle right"></i></a>
+                                    <button type="submit" class="btn-small light-blue darken-1 text-shadow">
+                                    Edit Review <i class="fas fa-edit right"></i></button>
                                 </div>
                             </li>
                         {% endfor %}

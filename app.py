@@ -6,6 +6,7 @@ from flask import (
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 from werkzeug.security import generate_password_hash, check_password_hash
+import pymongo
 if os.path.exists("env.py"):
     import env
 
@@ -18,35 +19,43 @@ app.secret_key = os.environ.get("SECRET_KEY")
 
 mongo = PyMongo(app)
 
+
 @app.route('/file/<filename>')
 def file(filename):
    return mongo.send_file(filename)
+
 
 @app.route("/get_tasks")
 def get_tasks():
     tasks = list(mongo.db.tasks.find())
     return render_template("tasks.html", tasks=tasks)
 
+
 @app.route("/")
 @app.route("/get_books")
 def get_books():
     books = list(mongo.db.books.find())
-    return render_template("get_books.html", books = books)
+    return render_template("get_books.html", books=books)
 
 
 @app.route("/book_detail/<book_id>", methods=["GET"])
 def book_detail(book_id):
     book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
-    reviews = list(mongo.db.reviews.find({'book_id': book_id}))
-    print("Number of reviews", len(reviews))
-    return render_template("book_detail.html", book = book, reviews = reviews)
+    reviews = list(mongo.db.reviews.find({'book_id': book_id}, {
+                   'create_date': 1, 'comment': 1, 'user_id': 1, 'islike': 1}).sort('create_date', pymongo.DESCENDING).limit(3))
+    total_ups = mongo.db.reviews.find(
+        {'book_id': book_id, 'islike': 'on'}).count()
+    total_downs = mongo.db.reviews.find(
+        {'book_id': book_id, 'islike': {'$type': 10}}).count()
+    total_reviews = mongo.db.reviews.find({'book_id': book_id}).count()
+    return render_template("book_detail.html", book=book, reviews=reviews, total_ups=total_ups, total_downs=total_downs, total_reviews=total_reviews)
 
 
 @app.route("/book_review_edit/<book_id>/<user_id>", methods=["GET", "POST"])
 def book_review_edit(book_id, user_id):
     book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
     reviews = []
-    return render_template("book_detail.html", book = book, reviews = reviews)
+    return render_template("book_detail.html", book=book, reviews=reviews)
 
 
 @app.route("/search", methods=["GET", "POST"])
@@ -54,6 +63,7 @@ def search():
     query = request.form.get("query")
     books = list(mongo.db.books.find({"$text": {"$search": query}}))
     return render_template("get_books.html", books=books)
+
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
@@ -91,11 +101,11 @@ def login():
             # ensure hashed password matches user input
             if check_password_hash(
                     existing_user["password"], request.form.get("password")):
-                        session["user"] = request.form.get("username").lower()
-                        flash("Welcome, {}".format(
-                            request.form.get("username")))
-                        return redirect(url_for(
-                            "profile", username=session["user"]))
+                session["user"] = request.form.get("username").lower()
+                flash("Welcome, {}".format(
+                    request.form.get("username")))
+                return redirect(url_for(
+                    "profile", username=session["user"]))
             else:
                 # invalid password match
                 flash("Incorrect Username and/or Password")
@@ -143,7 +153,8 @@ def add_book():
         new_book = mongo.db.books.insert_one(book)
         cover_image = request.files['book_cover']
         # have unique filename based on id of newly added book
-        mongo.save_file(str(new_book.inserted_id) + "_" + cover_image.filename, cover_image)
+        mongo.save_file(str(new_book.inserted_id) + "_" +
+                        cover_image.filename, cover_image)
         mongo.db.books.update_one(
             {'_id': new_book.inserted_id},
             {
@@ -198,6 +209,7 @@ def add_category():
 
     return render_template("add_category.html")
 
+
 @app.route("/edit_category/<category_id>", methods=["GET", "POST"])
 def edit_category(category_id):
     if request.method == "POST":
@@ -210,6 +222,7 @@ def edit_category(category_id):
 
     category = mongo.db.categories.find_one({"_id": ObjectId(category_id)})
     return render_template("edit_category.html", category=category)
+
 
 @app.route("/delete_category/<category_id>")
 def delete_category(category_id):
@@ -238,6 +251,7 @@ def add_review(book_id):
             return render_template("add_review.html", book=book)
     flash("You Must Login To Add A Review")
     return redirect(url_for("login"))
+
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
