@@ -232,8 +232,8 @@ def add_review(book_id):
             mongo.db.reviews.insert_one(review)
             flash("Review Successfully Added")
             book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
-            return redirect(url_for("book_detail", book_id=book._id))
-        else: 
+            return redirect(url_for("book_detail", book_id=book_id))
+        else:
             book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
             return render_template("add_review.html", book=book)
     flash("You Must Login To Add A Review")
