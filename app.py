@@ -30,6 +30,12 @@ def get_tasks():
     tasks = list(mongo.db.tasks.find())
     return render_template("tasks.html", tasks=tasks)
 
+@app.route("/book_review_edit/<review_id>", methods=["GET", "POST"])
+def book_review_edit(review_id):
+    # check if review is in system
+    review = mongo.db.reviews.find_one({'_id': ObjectId(review_id)})
+    return render_template("edit_book_review.html", review=review )
+
 
 @app.route("/")
 @app.route("/get_books")
