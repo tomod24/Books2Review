@@ -12,7 +12,8 @@
                <p> {{ book.description }}</p>
             </div>
             <div class="card-action">
-               <a href="#">This is a link</a>
+                <a href="{{ url_for('add_review', book_id=book._id) }}" class="btn-small light-blue lighten-1">Add
+                Review</a>
             </div>
          </div>
       </div>
@@ -45,8 +46,10 @@
                   <strong>Review Details</strong>
                   <p>{{ review.comment }}</p>
                   <div class="row">
+                  {% if session.user|lower == review.user_id|lower %}
                      <a href="#" class="btn-small green accent-4">Delete</a>
                      <a href="{{ url_for('book_review_edit', review_id=review._id) }}" class="btn-small light-blue lighten-1">Edit</a> 
+                     {% endif %}
                   </div>
                </div>
             </li>
@@ -56,8 +59,6 @@
       {% else %}
       <h3 class="grey-text text-darken-3 left-align">No Reviews</h3>
       {% endif %}
-      <a href="{{ url_for('add_review', book_id=book._id) }}" class="btn-small light-blue lighten-1">Add
-      Review</a>
    </div>
 </div>
 {% endblock %}
