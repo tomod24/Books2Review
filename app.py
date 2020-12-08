@@ -34,7 +34,8 @@ def get_tasks():
 def book_review_edit(review_id):
     # check if review is in system
     review = mongo.db.reviews.find_one({'_id': ObjectId(review_id)})
-    return render_template("edit_book_review.html", review=review )
+    book = mongo.db.books.find_one({'_id': ObjectId(review['book_id'])})
+    return render_template("book_review_edit.html", review=review, book=book)
 
 
 @app.route("/")
@@ -56,12 +57,6 @@ def book_detail(book_id):
     total_reviews = mongo.db.reviews.find({'book_id': book_id}).count()
     return render_template("book_detail.html", book=book, reviews=reviews, total_ups=total_ups, total_downs=total_downs, total_reviews=total_reviews)
 
-
-@app.route("/book_review_edit/<book_id>/<user_id>", methods=["GET", "POST"])
-def book_review_edit(book_id, user_id):
-    book = mongo.db.books.find_one({'_id': ObjectId(book_id)})
-    reviews = []
-    return render_template("book_detail.html", book=book, reviews=reviews)
 
 
 @app.route("/search", methods=["GET", "POST"])
