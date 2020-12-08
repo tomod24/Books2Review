@@ -37,19 +37,23 @@ def book_review_edit(review_id):
     book = mongo.db.books.find_one({'_id': ObjectId(review['book_id'])})
 
     if session.get("user"):
-        if request.method == "POST":
-            review = {
-                "book_id": review['book_id'],
-                "islike": request.form.get("islike"),
-                "comment": request.form.get("comment"),
-                "user_id": session["user"],
-                "create_date": datetime.now()
-            }
-            mongo.db.reviews.update({"_id": ObjectId(review_id)}, review)
-            flash("Review Successfully Updated")
-            return redirect(url_for("book_detail", book_id=review['book_id']))
+        if session.get("user")==review["user_id"]:
+            if request.method == "POST":
+                review = {
+                    "book_id": review['book_id'],
+                    "islike": request.form.get("islike"),
+                    "comment": request.form.get("comment"),
+                    "user_id": session["user"],
+                    "create_date": datetime.now()
+                }
+                mongo.db.reviews.update({"_id": ObjectId(review_id)}, review)
+                flash("Review Successfully Updated")
+                return redirect(url_for("book_detail", book_id=review['book_id']))
+            else:
+                return render_template("book_review_edit.html", review=review, book=book)
         else:
-            return render_template("book_review_edit.html", review=review, book=book)
+            flash("Only the user that created the review can update the review.")
+            return redirect(url_for("book_detail", book_id=review["book_id"]))
     flash("You Must Login To Update A Review")
     return redirect(url_for("login"))
 
