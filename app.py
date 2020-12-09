@@ -182,7 +182,9 @@ def add_book():
                 '$set': {'book_cover': str(new_book.inserted_id) + "_" + cover_image.filename}
             }
         )
-    return redirect(url_for("get_books"))
+        return redirect(url_for("get_books"))
+    else:
+        return render_template("add_book.html")
 
 
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])
