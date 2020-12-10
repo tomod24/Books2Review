@@ -215,12 +215,6 @@ def delete_review(review_id):
     return redirect(url_for("get_books"))
 
 
-@app.route("/delete_task/<task_id>")
-def delete_task(task_id):
-    mongo.db.tasks.remove({"_id": ObjectId(task_id)})
-    flash("Task Successfully Deleted")
-    return redirect(url_for("book_detail"))
-
 @app.route("/get_categories")
 def get_categories():
     categories = list(mongo.db.categories.find().sort("category_name", 1))
