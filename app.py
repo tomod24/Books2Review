@@ -34,10 +34,12 @@ def get_tasks():
 def book_review_edit(review_id):
     # check if review is in system
     review = mongo.db.reviews.find_one({'_id': ObjectId(review_id)})
+    if review is None:
+        flash("It looks like that review has been removed.")
+        return redirect(url_for("get_books"))
     book = mongo.db.books.find_one({'_id': ObjectId(review['book_id'])})
-
     if session.get("user"):
-        if session.get("user")==review["user_id"]:
+        if session.get("user") == review["user_id"]:
             if request.method == "POST":
                 review = {
                     "book_id": review['book_id'],
@@ -208,7 +210,7 @@ def edit_task(task_id):
 
 @app.route("/delete_review/<review_id>")
 def delete_review(review_id):
-    mongo.db.review.remove({"_id": ObjectId(review_id)})
+    mongo.db.reviews.delete_one({"_id": ObjectId(review_id)})
     flash("Review Successfully Deleted")
     return redirect(url_for("get_books"))
 
