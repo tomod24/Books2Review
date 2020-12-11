@@ -154,6 +154,7 @@ def profile(username):
     return redirect(url_for("login"))
 
 
+
 @app.route("/logout")
 def logout():
     # remove user from session cookie
@@ -164,29 +165,37 @@ def logout():
 
 @app.route("/add_book", methods=["GET", "POST"])
 def add_book():
-    if request.method == "POST" and 'book_cover' in request.files:
-        book = {
-            "title": request.form.get("book_title"),
-            "author": request.form.get("book_author"),
-            "genre": request.form.get("book_genre"),
-            "year": request.form.get("book_year"),
-            "description": request.form.get("book_description"),
-            "created_by": session["user"]
-        }
-        new_book = mongo.db.books.insert_one(book)
-        cover_image = request.files['book_cover']
-        # have unique filename based on id of newly added book
-        mongo.save_file(str(new_book.inserted_id) + "_" +
-                        cover_image.filename, cover_image)
-        mongo.db.books.update_one(
-            {'_id': new_book.inserted_id},
-            {
-                '$set': {'book_cover': str(new_book.inserted_id) + "_" + cover_image.filename}
-            }
-        )
-        return redirect(url_for("get_books"))
+    if session.get("user"):
+        if session["user"] == admin:
+            if request.method == "POST" and 'book_cover' in request.files:
+                book = {
+                    "title": request.form.get("book_title"),
+                    "author": request.form.get("book_author"),
+                    "genre": request.form.get("book_genre"),
+                    "year": request.form.get("book_year"),
+                    "description": request.form.get("book_description"),
+                    "created_by": session["user"]
+                }
+                new_book = mongo.db.books.insert_one(book)
+                cover_image = request.files['book_cover']
+                # have unique filename based on id of newly added book
+                mongo.save_file(str(new_book.inserted_id) + "_" +
+                                cover_image.filename, cover_image)
+                mongo.db.books.update_one(
+                    {'_id': new_book.inserted_id},
+                    {
+                        '$set': {'book_cover': str(new_book.inserted_id) + "_" + cover_image.filename}
+                    }
+                )
+                return redirect(url_for("get_books"))
+            else:
+                return render_template("add_book.html")
+        else:
+             flash("Only the admin can add books")
+             return redirect(url_for("get_books"))
     else:
-        return render_template("add_book.html")
+            flash("You must be logged in as admin to add a book.")
+            return redirect(url_for("login"))
 
 
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])
