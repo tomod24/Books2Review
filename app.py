@@ -147,13 +147,13 @@ def profile(username):
     # grab the session user's username from db
     username = mongo.db.users.find_one(
         {"username": session["user"]})["username"]
-
     if session["user"]:
-        return render_template("profile.html", username=username)
-
+        books = []
+        reviews = list(mongo.db.reviews.find({'user_id': session['user']}))
+        if username == "admin":
+            books = list(mongo.db.books.find({'created_by': 'admin'}))
+        return render_template("profile.html", username=username, reviews=reviews, books=books)
     return redirect(url_for("login"))
-
-
 
 @app.route("/logout")
 def logout():
@@ -166,7 +166,7 @@ def logout():
 @app.route("/add_book", methods=["GET", "POST"])
 def add_book():
     if session.get("user"):
-        if session["user"] == admin:
+        if session["user"] == "admin":
             if request.method == "POST" and 'book_cover' in request.files:
                 book = {
                     "title": request.form.get("book_title"),
