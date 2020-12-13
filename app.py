@@ -34,13 +34,14 @@ def get_tasks():
 def book_review_edit(review_id):
     # check if review is in system
     review = mongo.db.reviews.find_one({'_id': ObjectId(review_id)})
+    # make sure user owns the review or that they are the admin
     review["user_id"] == session['user'] or session['user'] == 'admin'
     if review is None:
         flash("It looks like that review has been removed.")
         return redirect(url_for("get_books"))
     book = mongo.db.books.find_one({'_id': ObjectId(review['book_id'])})
     if session.get("user"):
-        if session.get("user") == review["user_id"]:
+        if session.get("user") == review["user_id"] or session.get("user") == "admin":
             if request.method == "POST":
                 review = {
                     "book_id": review['book_id'],
@@ -156,7 +157,8 @@ def profile(username):
             reviews = list(mongo.db.reviews.find({'user_id': session['user']}))
         if username == "admin":
             books = list(mongo.db.books.find({'created_by': 'admin'}))
-        return render_template("profile.html", username=username, reviews=reviews, books=books)
+        return render_template("profile.html", username=username, reviews=reviews, 
+        books=books)
     return redirect(url_for("login"))
 
 @app.route("/logout")
