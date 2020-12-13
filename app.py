@@ -34,7 +34,7 @@ def get_tasks():
 def book_review_edit(review_id):
     # check if review is in system
     review = mongo.db.reviews.find_one({'_id': ObjectId(review_id)})
-    review.user_id =='admin' or session['user'] =='admin'
+    review['user_id'] == session['user'] or session['user'] =='admin'
     if review is None:
         flash("It looks like that review has been removed.")
         return redirect(url_for("get_books"))
