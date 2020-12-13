@@ -34,7 +34,7 @@ def get_tasks():
 def book_review_edit(review_id):
     # check if review is in system
     review = mongo.db.reviews.find_one({'_id': ObjectId(review_id)})
-    review['user_id'] == session['user'] or session['user'] =='admin'
+    review["user_id"] == session['user'] or session['user'] == 'admin'
     if review is None:
         flash("It looks like that review has been removed.")
         return redirect(url_for("get_books"))
@@ -150,7 +150,10 @@ def profile(username):
         {"username": session["user"]})["username"]
     if session["user"]:
         books = []
-        reviews = list(mongo.db.reviews.find({'user_id': session['user']}))
+        if session["user"] =="admin":
+            reviews = list(mongo.db.reviews.find({}))
+        else:
+            reviews = list(mongo.db.reviews.find({'user_id': session['user']}))
         if username == "admin":
             books = list(mongo.db.books.find({'created_by': 'admin'}))
         return render_template("profile.html", username=username, reviews=reviews, books=books)
