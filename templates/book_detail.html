@@ -3,11 +3,11 @@
 <div class="row">
    <div class="col s12 m6">
       <h2 class="header center text-shadow">{{ book.title }}</h2>
-      <div class="card">
-         <div class="card large center">
+      <div class="card transparent">
+         <div class="card large center grey darken-3 white-text">
             <img src="{{ url_for('file', filename=book['book_cover']) }} " alt="Cover Art for{{ book.title }}"/>
          </div>
-         <div class="card-stacked">
+         <div class="card-stacked grey darken-3 white-text">
             <div class="card-content">
                <p> {{ book.description }}</p>
             </div>
@@ -22,10 +22,10 @@
       <h2 class="header center text-shadow">Reviews</h2>
       {% if reviews|length > 0 %}
       <div class="row">
-         <ul class="collapsible orange darken-4 white-text">
+         <ul class="collapsible grey darken-3 white-text">
             {% for review in reviews %}
             <li>
-               <div class="collapsible-header grey darken-3 white-text">
+               <div class="collapsible-header orange darken-4 white-text">
                   <div class="col s3">
                      <i class="fas fa-caret-down"></i>
                   </div>
@@ -48,7 +48,7 @@
                   <div class="row">
                   {% if session.user|lower == review.user_id|lower %}
                      <a href="{{ url_for('delete_review', review_id=review._id) }}" class="btn-small  red darken-1 text-shadow">Delete</a>
-                     <a href="{{ url_for('book_review_edit', review_id=review._id) }}" class="btn-small green accent-2 text-shadow">Edit</a> 
+                     <a href="{{ url_for('book_review_edit', review_id=review._id) }}" class="btn-small  green darken-1 text-shadow">Edit</a> 
                      {% endif %}
                   </div>
                </div>
@@ -57,7 +57,7 @@
          </ul>
       </div>
       {% else %}
-      <h3 class="grey-text text-darken-3 left-align text-shadow">No Reviews</h3>
+      <h3 class="grey-text text-darken-3 left-align text-shadow center">No Reviews Avaialble</h3>
       {% endif %}
    </div>
 </div>
