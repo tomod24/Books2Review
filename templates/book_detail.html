@@ -2,24 +2,24 @@
 {% block content %}
 <div class="row">
    <div class="col s12 m6">
-      <h2 class="header center-align">{{ book.title }}</h2>
-      <div class="card horizontal">
-         <div class="card-image">
+      <h2 class="header center text-shadow">{{ book.title }}</h2>
+      <div class="card">
+         <div class="card large center">
             <img src="{{ url_for('file', filename=book['book_cover']) }} " alt="Cover Art for{{ book.title }}"/>
          </div>
          <div class="card-stacked">
             <div class="card-content">
-               <p class = "justify-align"> {{ book.description }}</p>
+               <p> {{ book.description }}</p>
             </div>
-            <div class="card-action center-align">
-                <a href="{{ url_for('add_review', book_id=book._id) }}" class="btn-small light-blue lighten-1">Add
+            <div class="card-action center">
+                <a href="{{ url_for('add_review', book_id=book._id) }}" class="btn-small orange darken-4 text-shadow align-center">Add
                 Review</a>
             </div>
          </div>
       </div>
    </div>
    <div class="col s12 m6">
-      <h2 class="header center">Reviews</h2>
+      <h2 class="header center text-shadow">Reviews</h2>
       {% if reviews|length > 0 %}
       <div class="row">
          <ul class="collapsible orange darken-4 white-text">
@@ -39,7 +39,7 @@
                      <i class="fas fa-clock"></i>
                      {% if review.create_date %}
                      {{ review.create_date.strftime('%Y-%m-%d') }}
-                     {% endif %}           
+                     {% endif %}
                   </div>
                </div>
                <div class="collapsible-body">
@@ -47,8 +47,8 @@
                   <p>{{ review.comment }}</p>
                   <div class="row">
                   {% if session.user|lower == review.user_id|lower %}
-                     <a href="{{ url_for('delete_review', review_id=review._id) }}" class="btn-small green accent-4">Delete</a>
-                     <a href="{{ url_for('book_review_edit', review_id=review._id) }}" class="btn-small light-blue lighten-1">Edit</a> 
+                     <a href="{{ url_for('delete_review', review_id=review._id) }}" class="btn-small  red darken-1 text-shadow">Delete</a>
+                     <a href="{{ url_for('book_review_edit', review_id=review._id) }}" class="btn-small green accent-2 text-shadow">Edit</a> 
                      {% endif %}
                   </div>
                </div>
@@ -57,7 +57,7 @@
          </ul>
       </div>
       {% else %}
-      <h3 class="grey-text text-darken-3 center-align">No Reviews Avaialble</h3>
+      <h3 class="grey-text text-darken-3 left-align text-shadow">No Reviews</h3>
       {% endif %}
    </div>
 </div>
