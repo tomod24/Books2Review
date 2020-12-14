@@ -46,7 +46,7 @@
                   <strong>Review Details</strong>
                   <p>{{ review.comment }}</p>
                   <div class="row">
-                  {% if session.user|lower == review.user_id|lower %}
+                  {% if session.user|lower == review.user_id|lower or session.user|lower =="admin" %}
                      <a href="{{ url_for('delete_review', review_id=review._id) }}" class="btn-small  red darken-1 text-shadow">Delete</a>
                      <a href="{{ url_for('book_review_edit', review_id=review._id) }}" class="btn-small  green darken-1 text-shadow">Edit</a> 
                      {% endif %}
