@@ -12,8 +12,8 @@
                <p> {{ book.description }}</p>
             </div>
             <div class="card-action center">
-                <a href="{{ url_for('add_review', book_id=book._id) }}" class="btn-small orange darken-4 text-shadow align-center">Add
-                Review</a>
+                <a href="{{ url_for('add_review', book_id=book._id) }}" class="btn-small orange darken-4 text-shadow align-center"><i class="fas fa-thumbs-up left">{{total_ups}}</i>Add
+                Review<i class="fas fa-thumbs-down right">{{total_downs}}</i></a>
             </div>
          </div>
       </div>
