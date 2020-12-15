@@ -7,11 +7,11 @@
          "islike": request.form.get("islike"),
          "comment": request.form.get("comment"),
          -->
-      <!-- Review Comment -->
+<!-- Review Comment -->
       <div class="row">
          <div class="input-field col s12">
             <i class="fas fa-align-left prefix white-text"></i>
-            <input id="comment" name="comment" type="text" class="validate" minlength="5" maxlength="500" required>
+            <textarea id="comment" name="comment" class="materialize-textarea validate" minlength="5" maxlength="500" required></textarea>
             <label for="comment">Edit Book Review</label>
          </div>
       </div>
