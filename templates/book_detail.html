@@ -57,9 +57,14 @@
          </ul>
       </div>
       {% else %}
-      <h3 class="grey-text text-darken-3 left-align text-shadow center">No Reviews Avaialble</h3>
+      <h3 class="grey-text text-darken-3 left-align text-shadow center">No Reviews Available</h3>
+      <p>To add a review, you need to select a book from our home page, then click the then add a review from the details screen. </p>
+      <a href="{{ url_for('add_review', book_id=book._id) }}" class="btn-small orange darken-4 text-shadow align-center">
+        Add Review</a>
       {% endif %}
    </div>
 </div>
 {% endblock %}
-            
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/book_detail_scripts.js') }}"></script>
+{% endblock %} 

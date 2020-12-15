@@ -80,3 +80,17 @@ html {
 div {
   font-family: h3;
 }
+
+/* small devices (600px and lower) */
+@media only screen and (max-width: 600px) {
+    h2.header{
+        font-size: 1.8rem;
+    }
+    .card.large{
+       height: auto;
+    }
+    .card.large img{
+        height: auto;
+        width: 100%;
+    }
+}
