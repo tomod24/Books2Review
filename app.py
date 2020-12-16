@@ -197,7 +197,7 @@ def add_book():
             else:
                 return render_template("add_book.html")
         else:
-             flash("Only the admin can add books")
+             flash("Only registered users can add books")
              return redirect(url_for("get_books"))
     else:
             flash("You must be logged in as admin to add a book.")
