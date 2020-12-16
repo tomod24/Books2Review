@@ -12,14 +12,14 @@
                <p> {{ book.description }}</p>
             </div>
             <div class="card-action center">
-                <a href="{{ url_for('add_review', book_id=book._id) }}" class="btn-small orange darken-4 text-shadow align-center"><i class="fas fa-thumbs-up left">{{total_ups}}</i>Add
-                Review<i class="fas fa-thumbs-down right">{{total_downs}}</i></a>
+               <a href="{{ url_for('add_review', book_id=book._id) }}" class="btn-small orange darken-4 text-shadow align-center"><i class="fas fa-thumbs-up left">{{total_ups}}</i>Add
+               Review<i class="fas fa-thumbs-down right">{{total_downs}}</i></a>
             </div>
          </div>
       </div>
    </div>
    <div class="col s12 m6">
-       <div class="row"></div>
+      <div class="row"></div>
       <h2 class="header center text-shadow">Reviews</h2>
       {% if reviews|length > 0 %}
       <div class="row">
@@ -47,7 +47,7 @@
                   <strong>Review Details</strong>
                   <p>{{ review.comment }}</p>
                   <div class="row">
-                  {% if session.user|lower == review.user_id|lower or session.user|lower =="admin" %}
+                     {% if session.user|lower == review.user_id|lower or session.user|lower =="admin" %}
                      <a href="{{ url_for('delete_review', review_id=review._id) }}" class="btn-small  red darken-1 text-shadow">Delete</a>
                      <a href="{{ url_for('book_review_edit', review_id=review._id) }}" class="btn-small  green darken-1 text-shadow">Edit</a> 
                      {% endif %}
@@ -61,7 +61,7 @@
       <h3 class="grey-text text-darken-3 left-align text-shadow center">No Reviews Available</h3>
       <p>If you like or don't like this book, please write a review. </p>
       <a href="{{ url_for('add_review', book_id=book._id) }}" class="btn-small orange darken-4 text-shadow align-center">
-        Add Review</a>
+      Add Review</a>
       {% endif %}
    </div>
 </div>
