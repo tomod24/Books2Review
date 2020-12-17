@@ -81,21 +81,15 @@ Books 2 Review is a database website where users/clients can provide a review fo
 
 ## Developer Goals
 
--
-### Demonstrate a solid understanding of MongoDB, Heroku and Python
--
-### Build a friendly and useful book review website
--
-### Build up portfolio with a great project
--
-### Make the site easy to use and navigate which provides a positive experience
+- Demonstrate a solid understanding of MongoDB, Heroku and Python
+- Build a friendly and useful book review website
+- Build up portfolio with a great project
+- Make the site easy to use and navigate which provides a positive experience
 
 ### Website Owner Goals
 
--
-### Have an easy-to-use site that encourages users to interact with it
--
-### Gain affiliate relationships to cross sell books
+- Have an easy-to-use site that encourages users to interact with it
+- Gain affiliate relationships to cross sell books
 
 ## User Stories
 
