@@ -2,6 +2,8 @@
 
 ![](RackMultipart20201217-4-k4sg7z_html_a899f65ae3f9f5b1.png)
 
+![Title](images/1.png)
+
 # Introduction
 
 Books 2 Review is a database website where users/clients can provide a review for a particular book for others to read and share their thoughts. This website will use the information provided by registered users to provide the information. If the users register, they can use more of the features such as adding books, reviews, amends and deleting review if necessary. The site will be designed to provide a simple but powerful attractive site for users to share their thoughts and opinions. This will also give them the opportunity to also learn about which books are recommended by other users.
@@ -65,17 +67,23 @@ The book idea come from my brother due to the knowledge given about how he works
 
 ## Font
 
+![font](images/2.png)
+
 Dafont was a reliable webpage with interesting font to use therefore I have used the following (Badly Stamped). The font selected was from [www.dafont.com](http://www.dafont.com/) it was perfect and suited for the theme of the site. I had I searched through several fonts and believed this was an excellent font giving the site a different dynamic and edge. It had the style that I was looking for and gave the font a better design overall on the webpage. Examples have been provided below.
 
-## ![](RackMultipart20201217-4-k4sg7z_html_a8a1357e397b4050.png) Colours
+## Colours
 
 I used the colours selected above as the complicated each other. I searched several sites for good combinations of colours working well together giving a presence. The orange, white, dark grey and black worked very well for me. I believed the sight would be bright for the users and have specific criteria stand out where required. I tried several different colours to check and personally didn&#39;t find it appealing nor did it make an impact on the website when implementing the colour. The colours selected were popular across various sites such as [https://www.tailorbrands.com/blog/logo-color-combinations](https://www.tailorbrands.com/blog/logo-color-combinations). Therefore, as I had seen the colour group together and enjoyed the colours myself I decided it was best to use due to the presence it gave for the website idea and design.
+
+![colours](images/3.png)
 
 ![](RackMultipart20201217-4-k4sg7z_html_63a5882e6295b427.png) ![](RackMultipart20201217-4-k4sg7z_html_ff2233b4b6d824ac.png) ![](RackMultipart20201217-4-k4sg7z_html_14d71bb0846123f1.png) ![](RackMultipart20201217-4-k4sg7z_html_eaa029ec63bc62bd.png)
 
 ## Icons/Images
 
 With the help of font awesome I was able to implement a varied number of icons on to the page. The icons help indicate the requirement or purpose of the section. Example being sign up for the website would be a pen and image logo to upload a picture for the book. The logos give more of a design effect on the website and make it more interactive for users. I believe the icons in the right place and correct icon used bring a custom design to the site and attention to detail supplied. This helps users enjoy and appreciate the site more that it has been created with effective detail and help support users in a hidden way. There are a few examples of the icons added below to show what has been used on the website.
+
+![icons](images/4.png)
 
 | ![](RackMultipart20201217-4-k4sg7z_html_7b7287d73a1869a7.png) | ![](RackMultipart20201217-4-k4sg7z_html_66f5cb1491a16b64.png) | ![](RackMultipart20201217-4-k4sg7z_html_a7ec326871103b09.png) | ![](RackMultipart20201217-4-k4sg7z_html_5f594b7900fb8ae3.png) | ![](RackMultipart20201217-4-k4sg7z_html_ffb0109ad31d5efe.png) | ![](RackMultipart20201217-4-k4sg7z_html_52f28a9b33f5e4cf.png) |
 | --- | --- | --- | --- | --- | --- |
@@ -98,55 +106,56 @@ Balsamiq frameworks was perfect to get a mock up design and use ideas in website
 
 The created wireframes below will show the design and the idea of how I wanted the website to be laid out from my ideas. I will try and match the wireframe design to the website pages displayed and improve the project as I go if I deem the change necessary. The changes will be mentioned in the final part of the Readme file showing from the original design and the end product. Websites can change when designing due to either improvements implemented or due to errors that need to be fixed and resolved.
 
-![](RackMultipart20201217-4-k4sg7z_html_7b17f6afbc6f6b95.png)
+![wireframe1](images/5.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_d3caca67daea5d27.png)
+![wireframe2](images/6.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_8272dd6efd2f5224.png)
+![wireframe3](images/7.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_64211096c70c992c.png)
+![wireframe4](images/8.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_45eb804a4340e4b6.png)
+![wireframe5](images/9.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_200bc7f3e0aabc4.png)
+![wireframe6](images10.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_41614cc47be99832.png)
+![wireframe7](images/11.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_bbb28d302f3170b0.png)
+![wireframe8](images/12.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_66ff97dc85a98a1d.png)
+![wireframe9](images/13.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_6e1bb34d1755b9f7.png)
+![wireframe10](images/14.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_38cc25a1fac9addf.png)
+![wireframe11](images15.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_71eb360df9757001.png)
+![wireframe12](images/16.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_99e466e22cefc648.png)
+![wireframe13](images/17.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_9afb3919ddc41cc2.png)
+![wireframe14](images/18.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_cb086870bd97f861.png)
+![wireframe15](images/19.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_659bd73a38da4838.png)
+![wireframe16](images/20.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_e7dfc940febb3a0d.png)
+![wireframe17](images/21.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_f363871d2e698a79.png)
+![wireframe18](images/22.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_ca7501e815a42637.png)
+![wireframe19](images/23.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_5937892317920b23.png)
+![wireframe20](images/24.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_ad279358786a9c5a.png)
+![wireframe21](images/25.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_8c6c23f73e42d789.png)
+![wireframe22](images/26.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_cb960f02a59e3bba.png)
+![wireframe23](images/27.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_98f1d5ebc734fdbf.png)
+![wireframe24](images/28.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_972bd349ee9ddaf4.png)
+![wireframe25](images/29.png)
+
 
 # Features
 
@@ -156,55 +165,56 @@ The created wireframes below will show the design and the idea of how I wanted t
 
 The book review website will display the latest books on the home page for the users. From here the user can search for a book following the correct criteria in the search bar which is a minimum of three characters using keywords instead of generic words such as the, and etc. The suer can also click the book present and select book details. As a n unregistered user, they have the ability to read the book details, read the review and register. The user cannot edit reviews, add books, manage reviews or delete the reviews.
 
-![](RackMultipart20201217-4-k4sg7z_html_ded52723c5d2a71f.png)
+![home](images/30.png)
 
 The book details page when selected shows the information as required posting the latest comments on the page Maximum of 3 at this point in time. The comments will update each time a review is added for the specified book selected to complete a review. The users also see how many likes and dislikes the book has indicated by thumbs images with a up and down icon and number to indicate the amount of likes and dislikes. The book detail page allows users to edit and delete their review if it is visual via the top 3 comments. This is by selecting the collapsible review boxes and once the box jumps down the options if available to the user for their reviews, they can edit or delete the review. The users also have the options to add the review by selecting the review button which takes them to a form to complete for the book review the wish to provide.
 
-![](RackMultipart20201217-4-k4sg7z_html_609e8b3448631ae4.png)
+![book_details](images/31.png)
 
 Registered Users
 
-![](RackMultipart20201217-4-k4sg7z_html_a45b9b68bff9e83b.png)
+![register_users](images/32.png)
 
-As a registered user, the users can have the ability to login into their account and they can add books to the website. This will include the details of the book title, author, description, book image and many more details.
+As a registered user, the users can have the ability to login into their account and they can add reviews only the admin can add the books. This will include the details of the book title, author, description, book image and many more details. 
+If the admin does not provide all the details necessary the book can’t be uploaded until all the fields have been completed.
 
 If the user does not provide all the details necessary the book can&#39;t be uploaded until all the fields have been completed.
 
-![](RackMultipart20201217-4-k4sg7z_html_4570f308bc354e4b.png)
+![add_books](images/33.png)
 
 Once the details have been applied correctly. The user will receive an update stating they have successfully uploaded a book.
 
 Once updated and completed successfully the user will be able to see the book on the home page. This will be the page the user is redirected to on the order once completed.
 
-![](RackMultipart20201217-4-k4sg7z_html_2ecec26d8a3c0ade.png)
+![add_books2](images/34.png)
 
 The user has the ability to add reviews to the website by selecting the book details on their chosen book. This will then lead them to the book details page and from here they can select an add review button to that particular book.
 
-![](RackMultipart20201217-4-k4sg7z_html_f2048d5faafd5973.png)
+![add_review](images/35.png)
 
 The user can then add a review the like button is automatically ticked by the user can change it to dislike the book if required by ticking the box.
 
-![](RackMultipart20201217-4-k4sg7z_html_1ee29c3f484fedd5.png)
+![add_books2](images/36.png)
 
-Once completed with the vote, review details add review button clicked you will get a successful message. Confirming the details have been added correctly.
+Once the details have been applied correctly. The admin will receive an update stating they have successfully uploaded a book.
 
-![](RackMultipart20201217-4-k4sg7z_html_8b1a1b53d1ba34e9.png)
+![add_books3](images/37.png)
 
 Edit Book Review Feature
 
 The users can also go on to their reviews and edit if they wish to change something or delete the review. This is for users to control their rumours&#39; accordingly and if errors need amending or they change their opinion the actions can be completed. The users would select the review they posted only this would be via the profile page or on the books page if the review is still available. This is because the reviews are the three most recent revises.
 
-![](RackMultipart20201217-4-k4sg7z_html_34bafefad24e43dd.png)
+![edit_review](images/38.png)
 
 The user can change their vote or their review details. Once complete the user can save the details and this will reflect correctly and also produce an updated message once completed.
 
-![](RackMultipart20201217-4-k4sg7z_html_a43e244143a548b2.png)
+![edit_review](images/39.png)
 
 Delete Book Review Feature
 
 Users have the ability to delete any reviews they no longer wish or if they just don&#39;t want it on their profile. Only the admin has the ability to delete any reviews for any user. When selecting the delete option the user has the red button for delete to select. Once they press this button, they can&#39;t reverse the action the review will be simply deleted and they will go back to the home page.
 
-![](RackMultipart20201217-4-k4sg7z_html_4873ec95c0d4683a.png)
+![delete_review](images/40.png)
 
 ## Features to Improve/Implement
 
@@ -238,7 +248,7 @@ For the website the following programming languages have been used HTML, CSS, He
 - [JQuery](https://jquery.com/) - used to simplify some DOM manipulation for certain functions
 - [GitPod](https://gitpod.io/) – Great toll to be sued for the development of the website and using the platform to complete the website as required. This helped fulfil the potential to complete the website.
 - [Heroku](https://dashboard.heroku.com/) – Launch the application code via Heroku used via deployment
-- [Materialize](https://materializecss.com/) – Helped support the coding queries necessary such as colours and grid information when necessary. The site also made footers very easy to include.
+- [Materialize](https://materializecss.com/) – Helped support the coding queries necessary such as colours and grid information when necessary. The site also made footers very    easy to include.
 - [Favicon](https://favicon.io/favicon-generator/) - Used to provide unique logo for the web page icon section
 - [Dafont](http://www.dafont.com/) for the site font styled for a customer and unique feel.
 - [Basalmiq](https://balsamiq.com/wireframes/desktop/) - Used for wireframe creation using professional tools to support the design
@@ -314,61 +324,13 @@ Various browsers were tested with the game link to ensure it would work on the b
 - to be able to search for books if a database is large or small
 - the ability to delete any reviews I want to change or start again.
 
-|
- |
- | **Firefox Internet** | **Google Chrome** |
- |
- |
-| --- | --- | --- | --- | --- | --- |
-| **Features** | **Action** | **Presentation
- Good **|** No JS issues **|** Links working
- Correctly **|** Presentation
- Good **|** No JS issues **|** Links working
- Correctly **|** Last Validation **|** Notes** |
-| **View reviews by user and other users** | Select a book any on the home page and click book details and click the review boxes on the right | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | The top 3 reviews display and the user can view their reviews and other users. |
-| **View book description** | Choose a book to review and click the books details and try to view the book description | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Book details clearly visible on the screen for users to read. |
-| **Register for website** | Click the register button on the nav bar and attempt to register username and password | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Registered for website using Test02 gaining access loading up reviews page which states no review upon registration |
-| **Add Book** | Register an account with the website once complete go to the add books button on the navigation bar | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Adding book after registration successful New book uploaded. |
-| **Review amend** | Select any book and click the book details complete a review. Once complete go to the book details again or select the profile page to amend the review. Click the review button and press edit. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Successfully amended an uploaded review. Reviews can be amended including the like and dislike switch can be changed. |
-| **Click the various links throughout the web page** | **Attempt to click three examples on the website Book details page, home page and the linkedIn link provided** | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | All options are easy to find book details clear on the books and link on the home page., Home page can be easily access via the home button and the linkedin link on the footer works correctly. |
-| **Add a like/Dislike on the book reviews** | Find a book to review and click the details. Once selected click add a review. When completing the book review attempt to click the like or dislike button. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Completed with ease easily accessible and a simple click like or dislike for the book which displays on the book details page. |
-| **Review latest reviews** | Select any book of your choosing ensuring it has reviews. Once selected attempt to review the latest review which will be at the top of the page. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Latest review details are displayed in the correct order and the review have a date and time stamp available. |
-| **Book search** | In the search bar on the home page search for a book not using the generic and the wording. E.g., pupp for puppy | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Book successfully appears any generic wording doesn&#39;t display any books. In case the data base is very large on the system |
-| **Delete Review** | Select a book that has been reviewed by yourself unless admin who can access any review. Once selected click book details and select the review you have access to. Click the review and delete and edit button will appear click delete. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Reviewed deleted successfully once completed the user will go back to the home page. There is no warning on the website therefore they have to be sure. Possible fix of a warning before deleting incase the user change their mind. |
-| **Git Ignore** | Storing sensitive data using environmental variables. Not allowing the files to be viewed or stored on github | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Files input into the git ignore file do not display and remain hidden. |
-| **Book search** | On the main page search for a book with more than 3 letters not using generic words e.g., and, the etc. | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Works correctly searched for &quot;scr&quot; and found the scruffy dog book |
-| **Book Search Reset Button** | Type information into the search bar and press the reset button | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | The reset button works correctly and resets the search criteria to nothing |
-| **After Book Search Reset Button** | Type information into the search bar search for results then press the reset button | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | The reset button works correctly and resets the search criteria to nothing and clears any found items |
-| **Click book details on the home page** | Click the book details for any book on the home page. | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Result works correctly. The user will have the details of the book they selected displayed on the page. Including add review and the ability to read the reviews |
-| **Home Button reverts back to the home page from any site.** | Click the Home navigation button on any website from the Books 2 Review website | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Result works correctly. Every site linked with Books 2 review reverts back to the home page. |
+![testing1](images/41.png)
+![testing2](images/42.png)
+![testing3](images/43.png)
 
-|
- |
- | **Internet Explorer** | **n/a** |
- |
- |
-| --- | --- | --- | --- | --- | --- |
-| **Features** | **Action** | **Presentation
- Good **|** No JS issues **|** Links working
- Correctly **|** Presentation
- Good **|** No JS issues **|** Links working
- Correctly **|** Last Validation **|** Notes** |
-| **View reviews by user and other users** | Select a book any on the home page and click book details and click the review boxes on the right | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | The top 3 reviews display and the user can view their reviews and other users. |
-| **View book description** | Choose a book to review and click the books details and try to view the book description | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Book details clearly visible on the screen for users to read. |
-| **Register for website** | Click the register button on the nav bar and attempt to register username and password | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Registered for website using Test02 gaining access loading up reviews page which states no review upon registration |
-| **Add Book** | Register an account with the website once complete go to the add books button on the navigation bar | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Adding book after registration successful New book uploaded. |
-| **Review amend** | Select any book and click the book details complete a review. Once complete go to the book details again or select the profile page to amend the review. Click the review button and press edit. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Successfully amended an uploaded review. Reviews can be amended including the like and dislike switch can be changed. |
-| **Click the various links throughout the web page** | **Attempt to click three examples on the website Book details page, home page and the linkedIn link provided** | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | All options are easy to find book details clear on the books and link on the home page., Home page can be easily access via the home button and the linkedin link on the footer works correctly. |
-| **Add a like/Dislike on the book reviews** | Find a book to review and click the details. Once selected click add a review. When completing the book review attempt to click the like or dislike button. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Completed with ease easily accessible and a simple click like or dislike for the book which displays on the book details page. |
-| **Review latest reviews** | Select any book of your choosing ensuring it has reviews. Once selected attempt to review the latest review which will be at the top of the page. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Latest review details are displayed in the correct order and the review have a date and time stamp available. |
-| **Book search** | In the search bar on the home page search for a book not using the generic and the wording. E.g., pupp for puppy | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Book successfully appears any generic wording doesn&#39;t display any books. In case the data base is very large on the system |
-| **Delete Review** | Select a book that has been reviewed by yourself unless admin who can access any review. Once selected click book details and select the review you have access to. Click the review and delete and edit button will appear click delete. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Reviewed deleted successfully once completed the user will go back to the home page. There is no warning on the website therefore they have to be sure. Possible fix of a warning before deleting incase the user change their mind. |
-| **Git Ignore** | Storing sensitive data using environmental variables. Not allowing the files to be viewed or stored on github | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Files input into the git ignore file do not display and remain hidden. |
-| **Book search** | On the main page search for a book with more than 3 letters not using generic words e.g., and, the etc. | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Works correctly searched for &quot;scr&quot; and found the scruffy dog book |
-| **Book Search Reset Button** | Type information into the search bar and press the reset button | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | The reset button works correctly and resets the search criteria to nothing |
-| **After Book Search Reset Button** | Type information into the search bar search for results then press the reset button | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | The reset button works correctly and resets the search criteria to nothing and clears any found items |
-| **Click book details on the home page** | Click the book details for any book on the home page. | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Result works correctly. The user will have the details of the book they selected displayed on the page. Including add review and the ability to read the reviews |
-| **Home Button reverts back to the home page from any site.** | Click the Home navigation button on any website from the Books 2 Review website | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Result works correctly. Every site linked with Books 2 review reverts back to the home page. |
+![testing4](images/44.png)
+![testing5](images/45.png)
+![testing6](images/46.png)
 
 **Note - Safari is not available unfortunately I do not possess access to this system. This will be provided for users to test and view if possible. At this point in time, I cannot test if it is suitable on the application/browser available.**
 
@@ -376,61 +338,13 @@ Various browsers were tested with the game link to ensure it would work on the b
 
 To enable all device were tested and various device were explored tablets and mobiles where considered to test the game on. This would ensure this works on multiple devices.
 
-|
- |
- | **iPad Pro** | **Pixel 2** |
- |
- |
-| --- | --- | --- | --- | --- | --- |
-| **Features** | **Action** | **Presentation
- Good **|** No JS issues **|** Links working
- Correctly **|** Presentation
- Good **|** No JS issues **|** Links working
- Correctly **|** Last Validation **|** Notes** |
-| **View reviews by user and other users** | Select a book any on the home page and click book details and click the review boxes on the right | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | The top 3 reviews display and the user can view their reviews and other users. |
-| **View book description** | Choose a book to review and click the books details and try to view the book description | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Book details clearly visible on the screen for users to read. |
-| **Register for website** | Click the register button on the nav bar and attempt to register username and password | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Registered for website using Test02 gaining access loading up reviews page which states no review upon registration |
-| **Add Book** | Register an account with the website once complete go to the add books button on the navigation bar | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Adding book after registration successful New book uploaded. |
-| **Review amend** | Select any book and click the book details complete a review. Once complete go to the book details again or select the profile page to amend the review. Click the review button and press edit. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Successfully amended an uploaded review. Reviews can be amended including the like and dislike switch can be changed. |
-| **Click the various links throughout the web page** | **Attempt to click three examples on the website Book details page, home page and the linkedIn link provided** | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | All options are easy to find book details clear on the books and link on the home page., Home page can be easily access via the home button and the linkedin link on the footer works correctly. |
-| **Add a like/Dislike on the book reviews** | Find a book to review and click the details. Once selected click add a review. When completing the book review attempt to click the like or dislike button. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Completed with ease easily accessible and a simple click like or dislike for the book which displays on the book details page. |
-| **Review latest reviews** | Select any book of your choosing ensuring it has reviews. Once selected attempt to review the latest review which will be at the top of the page. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Latest review details are displayed in the correct order and the review have a date and time stamp available. |
-| **Book search** | In the search bar on the home page search for a book not using the generic and the wording. E.g., pupp for puppy | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Book successfully appears any generic wording doesn&#39;t display any books. In case the data base is very large on the system |
-| **Delete Review** | Select a book that has been reviewed by yourself unless admin who can access any review. Once selected click book details and select the review you have access to. Click the review and delete and edit button will appear click delete. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Reviewed deleted successfully once completed the user will go back to the home page. There is no warning on the website therefore they have to be sure. Possible fix of a warning before deleting incase the user change their mind. |
-| **Git Ignore** | Storing sensitive data using environmental variables. Not allowing the files to be viewed or stored on github | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Files input into the git ignore file do not display and remain hidden. |
-| **Book search** | On the main page search for a book with more than 3 letters not using generic words e.g., and, the etc. | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Works correctly searched for &quot;scr&quot; and found the scruffy dog book |
-| **Book Search Reset Button** | Type information into the search bar and press the reset button | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | The reset button works correctly and resets the search criteria to nothing |
-| **After Book Search Reset Button** | Type information into the search bar search for results then press the reset button | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | The reset button works correctly and resets the search criteria to nothing and clears any found items |
-| **Click book details on the home page** | Click the book details for any book on the home page. | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Result works correctly. The user will have the details of the book they selected displayed on the page. Including add review and the ability to read the reviews |
-| **Home Button reverts back to the home page from any site.** | Click the Home navigation button on any website from the Books 2 Review website | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Result works correctly. Every site linked with Books 2 review reverts back to the home page. |
+![testing7](images/47.png)
+![testing8](images/48.png)
+![testing9](images/49.png)
 
-|
- |
- | **Huawei P20 Pro** | **Samsung Galaxy Tab** |
- |
- |
-| --- | --- | --- | --- | --- | --- |
-| **Features** | **Action** | **Presentation
- Good **|** No JS issues **|** Links working
- Correctly **|** Presentation
- Good **|** No JS issues **|** Links working
- Correctly **|** Last Validation **|** Notes** |
-| **View reviews by user and other users** | Select a book any on the home page and click book details and click the review boxes on the right | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | The top 3 reviews display and the user can view their reviews and other users. |
-| **View book description** | Choose a book to review and click the books details and try to view the book description | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Book details clearly visible on the screen for users to read. |
-| **Register for website** | Click the register button on the nav bar and attempt to register username and password | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Registered for website using Test02 gaining access loading up reviews page which states no review upon registration |
-| **Add Book** | Register an account with the website once complete go to the add books button on the navigation bar | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Adding book after registration successful New book uploaded. |
-| **Review amend** | Select any book and click the book details complete a review. Once complete go to the book details again or select the profile page to amend the review. Click the review button and press edit. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Successfully amended a uploaded review. Reviews can be amended including the like and dislike switch can be changed. |
-| **Click the various links throughout the web page** | **Attempt to click three examples on the website Book details page, home page and the linkedIn link provided** | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | All options are easy to find book details clear on the books and link on the home page., Home page can be easily access via the home button and the linkedin link on the footer works correctly. |
-| **Add a like/Dislike on the book reviews** | Find a book to review and click the details. Once selected click add a review. When completing the book review attempt to click the like or dislike button. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Completed with ease easily accessible and a simple click like or dislike for the book which displays on the book details page. |
-| **Review latest reviews** | Select any book of your choosing ensuring it has reviews. Once selected attempt to review the latest review which will be at the top of the page. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Latest review details are displayed in the correct order and the review have a date and time stamp available. |
-| **Book search** | In the search bar on the home page search for a book not using the generic and the wording. E.g., pupp for puppy | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Book successfully appears any generic wording doesn&#39;t display any books. In case the data base is very large on the system |
-| **Delete Review** | Select a book that has been reviewed by yourself unless admin who can access any review. Once selected click book details and select the review you have access to. Click the review and delete and edit button will appear click delete. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Reviewed deleted successfully once completed the user will go back to the home page. There is no warning on the website therefore they have to be sure. Possible fix of a warning before deleting incase the user change their mind. |
-| **Git Ignore** | Storing sensitive data using environmental variables. Not allowing the files to be viewed or stored on github | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Files input into the git ignore file do not display and remain hidden. |
-| **Book search** | On the main page search for a book with more than 3 letters not using generic words e.g., and, the etc. | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Works correctly searched for &quot;scr&quot; and found the scruffy dog book |
-| **Book Search Reset Button** | Type information into the search bar and press the reset button | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | The reset button works correctly and resets the search criteria to nothing |
-| **After Book Search Reset Button** | Type information into the search bar search for results then press the reset button | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | The reset button works correctly and resets the search criteria to nothing and clears any found items |
-| **Click book details on the home page** | Click the book details for any book on the home page. | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Result works correctly. The user will have the details of the book they selected displayed on the page. Including add review and the ability to read the reviews |
-| **Home Button reverts back to the home page from any site.** | Click the Home navigation button on any website from the Books 2 Review website | Yes | Yes | Yes | Yes | Yes | Yes | 13/12/2020 | Result works correctly. Every site linked with Books 2 review reverts back to the home page. |
+![testing10](images/50.png)
+![testing11](images/51.png)
+![testing12](images/52.png)
 
 ## Lighthouse Audit
 
@@ -438,33 +352,28 @@ To enable all device were tested and various device were explored tablets and mo
 
 Accessibility testing was conducted on the site to ensure it was suitable and performing to a suitable score for users and their experience on the website. This way the site can potentially work to its maximum performance. This is completed by selected the lighthouse option on the developer tool and generating a report for the selected device. This can be mobile or desktop devices.
 
-![](RackMultipart20201217-4-k4sg7z_html_35bd7b1ecf9d9ed0.png)
+![lighthouse1](images/53.png)
 
 The result for mobile was 100 which is acceptable for the website and performance. As mentioned in the mobile review improvement to be completed as a future improvement. . (Image below first check for Books 2 review after the website was functioning)
 
-![](RackMultipart20201217-4-k4sg7z_html_fb83c331cbb0a522.png)
+![lighthouse2](images/54.png)
 
 The results for desktop are 99 which is a worthy score for a website but I would look to improve the score where possible this can be a future update and performance improvement. (Image below first check for Books 2 review after the website was functioning)
 
-![](RackMultipart20201217-4-k4sg7z_html_720e1a8c66f8707.png)
+![lighthouse3](images/55.png)
 
-![](RackMultipart20201217-4-k4sg7z_html_ebfa2e7bab79b70c.png)
+![lighthouse4](images/56.png)
 
 Initially the first light house check for mobile and desktop was pretty and a good result but it can be improved which would be best practice to be actioned. Ensuring its suitable for all users. Therefore, the web pages have been reviewed to ensure the code works accordingly and any errors are resolved. The functionality of the website is every important and helps with the loading as well as displaying correctly and providing clean code. For errors the mark up validation was used to ensure any issues were resolved on the order. This was key to checking the code and making sure it would be accessible for all years of the web.
 
-Mobile Accessibility Improvement
+Mobile Accessibility Improvement image
 
-Desktop Accessibility Improvement
+Desktop Accessibility Improvement image
 
 ## Bugs Discovered
 
-| **Features** | **Description** | **Steps to Reproduce** | **Resolution** |
-| --- | --- | --- | --- |
-| **Book description** | Issues with the add book page when adding information to the book description the label wasn&#39;t moving above the content line. Therefore, when typing in the required field the text would be behind the book description label. This therefore proving difficult to view the information and provided poor visibility. | On the add book page go to the description section and add a description of a book or add random text. To see if the text is behind the book description label. | On the add\_book.html template add the following criteria as it was incorrect. Type=&quot;text in the input id field and deleted the data-error field &#39;data-error=&quot;&#39;. This field is required&quot; as it was not required for this section. This mirrored the other labels provided on the add book page. |
-| Accessibility Score | The accessibility score was quite high overall. Although the score is high it can be improved and can make the website function become a lot better and more responsive. | Remove some code and generate the report this is very broadband but the more important the code the higher the drop. The current code is high from the review therefore the fix would be to improve where necessary. Removing the code is an example how the website can be affected. | Using a code checker that provides issues or using the lighthouse generated report review the information and improve where necessary when coding. The fix was to go through step by step all the code to improve where possible and necessary to remove any errors. |
-| Book details display not in the correct position due to code not being right | When viewing the book details the title would cause I misplacement of the reviews box on the right-hand side. The website would not display to its bets potential | Select the book details page when loading the page, the reviews table and the book image box wont be aligned correctly. | The scripting was causing an issue on the book details page. Adding the code to the bottom of the website {% block scripts %}\&lt;script src=&quot;{{ url\_for(&#39;static&#39;, filename=&#39;js/book\_detail\_script.js&#39;) }}&quot;\&gt;\&lt;/script\&gt;{% endblock %} fixed the structure of the website issue. |
-| Image display issues | The image was a very small image and large description on the book details page. This is required to fit the webpage meaning a large image to accompany the text. | When selecting the book details page the image is very small. Its not suitable for the presentation nor is it suitable for anyone with any visual difficulty. | The div class in book details for the cover art was amended to large the information was supplied from materialize which has been mentioned in the acknowledgements for the information provided from their website. You can implement a size change by simple text included small medium large etc. This was amended to large and worked correctly. The code enabled large images on the webpage. |
-| Search with generic words | When searching for books using and the website doesn&#39;t display any information. | On the home page search for a book using and, the, use. Generic words used every day that are very common. They have to be 3 characters anything less won&#39;t work. Anything more a book might appear depends on the letters. | The resolution for the search criteria is a safety measure I believe it could be fixed but if the database has thousands of books then it prevents having lots of books loading causing the web page issues. |
+![bug1](images/59.png)
+![bug2](images/60.png)
 
 ### Outstanding Defects
 
