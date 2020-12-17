@@ -1,8 +1,6 @@
 # Books 2 Review
 
-![](RackMultipart20201217-4-k4sg7z_html_a899f65ae3f9f5b1.png)
-
-![Title](images/1.png)
+![Title](Books2Review/assests/images/1.png1.png)
 
 # Introduction
 
