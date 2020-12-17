@@ -65,7 +65,7 @@ The book idea come from my brother due to the knowledge given about how he works
 
 ## Font
 
-![font](images/2.png)
+![font](https://github.com/tomod24/Books2Review/blob/master/assests/images/2.png)
 
 Dafont was a reliable webpage with interesting font to use therefore I have used the following (Badly Stamped). The font selected was from [www.dafont.com](http://www.dafont.com/) it was perfect and suited for the theme of the site. I had I searched through several fonts and believed this was an excellent font giving the site a different dynamic and edge. It had the style that I was looking for and gave the font a better design overall on the webpage. Examples have been provided below.
 
@@ -73,18 +73,13 @@ Dafont was a reliable webpage with interesting font to use therefore I have used
 
 I used the colours selected above as the complicated each other. I searched several sites for good combinations of colours working well together giving a presence. The orange, white, dark grey and black worked very well for me. I believed the sight would be bright for the users and have specific criteria stand out where required. I tried several different colours to check and personally didn&#39;t find it appealing nor did it make an impact on the website when implementing the colour. The colours selected were popular across various sites such as [https://www.tailorbrands.com/blog/logo-color-combinations](https://www.tailorbrands.com/blog/logo-color-combinations). Therefore, as I had seen the colour group together and enjoyed the colours myself I decided it was best to use due to the presence it gave for the website idea and design.
 
-![colours](images/3.png)
-
-![](RackMultipart20201217-4-k4sg7z_html_63a5882e6295b427.png) ![](RackMultipart20201217-4-k4sg7z_html_ff2233b4b6d824ac.png) ![](RackMultipart20201217-4-k4sg7z_html_14d71bb0846123f1.png) ![](RackMultipart20201217-4-k4sg7z_html_eaa029ec63bc62bd.png)
+![colours](https://github.com/tomod24/Books2Review/blob/master/assests/images/3.png)
 
 ## Icons/Images
 
 With the help of font awesome I was able to implement a varied number of icons on to the page. The icons help indicate the requirement or purpose of the section. Example being sign up for the website would be a pen and image logo to upload a picture for the book. The logos give more of a design effect on the website and make it more interactive for users. I believe the icons in the right place and correct icon used bring a custom design to the site and attention to detail supplied. This helps users enjoy and appreciate the site more that it has been created with effective detail and help support users in a hidden way. There are a few examples of the icons added below to show what has been used on the website.
 
-![icons](images/4.png)
-
-| ![](RackMultipart20201217-4-k4sg7z_html_7b7287d73a1869a7.png) | ![](RackMultipart20201217-4-k4sg7z_html_66f5cb1491a16b64.png) | ![](RackMultipart20201217-4-k4sg7z_html_a7ec326871103b09.png) | ![](RackMultipart20201217-4-k4sg7z_html_5f594b7900fb8ae3.png) | ![](RackMultipart20201217-4-k4sg7z_html_ffb0109ad31d5efe.png) | ![](RackMultipart20201217-4-k4sg7z_html_52f28a9b33f5e4cf.png) |
-| --- | --- | --- | --- | --- | --- |
+![icons](https://github.com/tomod24/Books2Review/blob/master/assests/images/4.png)
 
 ## Content Section
 
@@ -104,55 +99,55 @@ Balsamiq frameworks was perfect to get a mock up design and use ideas in website
 
 The created wireframes below will show the design and the idea of how I wanted the website to be laid out from my ideas. I will try and match the wireframe design to the website pages displayed and improve the project as I go if I deem the change necessary. The changes will be mentioned in the final part of the Readme file showing from the original design and the end product. Websites can change when designing due to either improvements implemented or due to errors that need to be fixed and resolved.
 
-![wireframe1](images/5.png)
+![wireframe1](https://github.com/tomod24/Books2Review/blob/master/assests/images/5.png)
 
-![wireframe2](images/6.png)
+![wireframe2](https://github.com/tomod24/Books2Review/blob/master/assests/images/6.png)
 
-![wireframe3](images/7.png)
+![wireframe3](https://github.com/tomod24/Books2Review/blob/master/assests/images/7.png)
 
-![wireframe4](images/8.png)
+![wireframe4](https://github.com/tomod24/Books2Review/blob/master/assests/images/8.png)
 
-![wireframe5](images/9.png)
+![wireframe5](https://github.com/tomod24/Books2Review/blob/master/assests/images/9.png)
 
-![wireframe6](images10.png)
+![wireframe6](https://github.com/tomod24/Books2Review/blob/master/assests/images/10.png)
 
-![wireframe7](images/11.png)
+![wireframe7](https://github.com/tomod24/Books2Review/blob/master/assests/images/11.png)
 
-![wireframe8](images/12.png)
+![wireframe8](https://github.com/tomod24/Books2Review/blob/master/assests/images/12.png))
 
-![wireframe9](images/13.png)
+![wireframe9](https://github.com/tomod24/Books2Review/blob/master/assests/images/13.png))
 
-![wireframe10](images/14.png)
+![wireframe10](https://github.com/tomod24/Books2Review/blob/master/assests/images/14.png))
 
-![wireframe11](images15.png)
+![wireframe11](https://github.com/tomod24/Books2Review/blob/master/assests/images/15.png))
 
-![wireframe12](images/16.png)
+![wireframe12](https://github.com/tomod24/Books2Review/blob/master/assests/images/16.png))
 
-![wireframe13](images/17.png)
+![wireframe13](https://github.com/tomod24/Books2Review/blob/master/assests/images/17.png))
 
-![wireframe14](images/18.png)
+![wireframe14](https://github.com/tomod24/Books2Review/blob/master/assests/images/18.png))
 
-![wireframe15](images/19.png)
+![wireframe15](https://github.com/tomod24/Books2Review/blob/master/assests/images/19.png))
 
-![wireframe16](images/20.png)
+![wireframe16](https://github.com/tomod24/Books2Review/blob/master/assests/images/20.png))
 
-![wireframe17](images/21.png)
+![wireframe17](https://github.com/tomod24/Books2Review/blob/master/assests/images/21.png))
 
-![wireframe18](images/22.png)
+![wireframe18](https://github.com/tomod24/Books2Review/blob/master/assests/images/22.png))
 
-![wireframe19](images/23.png)
+![wireframe19](https://github.com/tomod24/Books2Review/blob/master/assests/images/23.png))
 
-![wireframe20](images/24.png)
+![wireframe20](https://github.com/tomod24/Books2Review/blob/master/assests/images/24.png))
 
-![wireframe21](images/25.png)
+![wireframe21](https://github.com/tomod24/Books2Review/blob/master/assests/images/25.png))
 
-![wireframe22](images/26.png)
+![wireframe22](https://github.com/tomod24/Books2Review/blob/master/assests/images/26.png))
 
-![wireframe23](images/27.png)
+![wireframe23](https://github.com/tomod24/Books2Review/blob/master/assests/images/27.png))
 
-![wireframe24](images/28.png)
+![wireframe24](https://github.com/tomod24/Books2Review/blob/master/assests/images/28.png))
 
-![wireframe25](images/29.png)
+![wireframe25](https://github.com/tomod24/Books2Review/blob/master/assests/images/29.png))
 
 
 # Features
@@ -163,56 +158,56 @@ The created wireframes below will show the design and the idea of how I wanted t
 
 The book review website will display the latest books on the home page for the users. From here the user can search for a book following the correct criteria in the search bar which is a minimum of three characters using keywords instead of generic words such as the, and etc. The suer can also click the book present and select book details. As a n unregistered user, they have the ability to read the book details, read the review and register. The user cannot edit reviews, add books, manage reviews or delete the reviews.
 
-![home](images/30.png)
+![home](https://github.com/tomod24/Books2Review/blob/master/assests/images/30.png))
 
 The book details page when selected shows the information as required posting the latest comments on the page Maximum of 3 at this point in time. The comments will update each time a review is added for the specified book selected to complete a review. The users also see how many likes and dislikes the book has indicated by thumbs images with a up and down icon and number to indicate the amount of likes and dislikes. The book detail page allows users to edit and delete their review if it is visual via the top 3 comments. This is by selecting the collapsible review boxes and once the box jumps down the options if available to the user for their reviews, they can edit or delete the review. The users also have the options to add the review by selecting the review button which takes them to a form to complete for the book review the wish to provide.
 
-![book_details](images/31.png)
+![book_details](https://github.com/tomod24/Books2Review/blob/master/assests/images/31.png))
 
 Registered Users
 
-![register_users](images/32.png)
+![register_users](https://github.com/tomod24/Books2Review/blob/master/assests/images/32.png))
 
 As a registered user, the users can have the ability to login into their account and they can add reviews only the admin can add the books. This will include the details of the book title, author, description, book image and many more details. 
 If the admin does not provide all the details necessary the book can’t be uploaded until all the fields have been completed.
 
 If the user does not provide all the details necessary the book can&#39;t be uploaded until all the fields have been completed.
 
-![add_books](images/33.png)
+![add_books](https://github.com/tomod24/Books2Review/blob/master/assests/images/33.png))
 
 Once the details have been applied correctly. The user will receive an update stating they have successfully uploaded a book.
 
 Once updated and completed successfully the user will be able to see the book on the home page. This will be the page the user is redirected to on the order once completed.
 
-![add_books2](images/34.png)
+![add_books2](https://github.com/tomod24/Books2Review/blob/master/assests/images/34.png))
 
 The user has the ability to add reviews to the website by selecting the book details on their chosen book. This will then lead them to the book details page and from here they can select an add review button to that particular book.
 
-![add_review](images/35.png)
+![add_review](https://github.com/tomod24/Books2Review/blob/master/assests/images/35.png))
 
 The user can then add a review the like button is automatically ticked by the user can change it to dislike the book if required by ticking the box.
 
-![add_books2](images/36.png)
+![add_books2](https://github.com/tomod24/Books2Review/blob/master/assests/images/36.png))
 
 Once the details have been applied correctly. The admin will receive an update stating they have successfully uploaded a book.
 
-![add_books3](images/37.png)
+![add_books3](https://github.com/tomod24/Books2Review/blob/master/assests/images/37.png))
 
 Edit Book Review Feature
 
 The users can also go on to their reviews and edit if they wish to change something or delete the review. This is for users to control their rumours&#39; accordingly and if errors need amending or they change their opinion the actions can be completed. The users would select the review they posted only this would be via the profile page or on the books page if the review is still available. This is because the reviews are the three most recent revises.
 
-![edit_review](images/38.png)
+![edit_review](https://github.com/tomod24/Books2Review/blob/master/assests/images/38.png))
 
 The user can change their vote or their review details. Once complete the user can save the details and this will reflect correctly and also produce an updated message once completed.
 
-![edit_review](images/39.png)
+![edit_review](https://github.com/tomod24/Books2Review/blob/master/assests/images/39.png))
 
 Delete Book Review Feature
 
 Users have the ability to delete any reviews they no longer wish or if they just don&#39;t want it on their profile. Only the admin has the ability to delete any reviews for any user. When selecting the delete option the user has the red button for delete to select. Once they press this button, they can&#39;t reverse the action the review will be simply deleted and they will go back to the home page.
 
-![delete_review](images/40.png)
+![delete_review](https://github.com/tomod24/Books2Review/blob/master/assests/images/40.png))
 
 ## Features to Improve/Implement
 
@@ -258,9 +253,6 @@ For the website the following programming languages have been used HTML, CSS, He
 
 This project was required to be based on a NoSQL database structure so MongoDb was used.
 
-![](RackMultipart20201217-4-k4sg7z_html_f445f8679745e9e6.png) ![](RackMultipart20201217-4-k4sg7z_html_c6cab398e31a2a7c.png)
-
-![](RackMultipart20201217-4-k4sg7z_html_3f189cb28289e555.png)
 
 ### Data Models
 
@@ -322,13 +314,13 @@ Various browsers were tested with the game link to ensure it would work on the b
 - to be able to search for books if a database is large or small
 - the ability to delete any reviews I want to change or start again.
 
-![testing1](images/41.png)
-![testing2](images/42.png)
-![testing3](images/43.png)
+![testing1](https://github.com/tomod24/Books2Review/blob/master/assests/images/41.png))
+![testing2](https://github.com/tomod24/Books2Review/blob/master/assests/images/42.png))
+![testing3](https://github.com/tomod24/Books2Review/blob/master/assests/images/43.png))
 
-![testing4](images/44.png)
-![testing5](images/45.png)
-![testing6](images/46.png)
+![testing4](https://github.com/tomod24/Books2Review/blob/master/assests/images/44.png))
+![testing5](https://github.com/tomod24/Books2Review/blob/master/assests/images/45.png))
+![testing6](https://github.com/tomod24/Books2Review/blob/master/assests/images/46.png))
 
 **Note - Safari is not available unfortunately I do not possess access to this system. This will be provided for users to test and view if possible. At this point in time, I cannot test if it is suitable on the application/browser available.**
 
@@ -336,13 +328,13 @@ Various browsers were tested with the game link to ensure it would work on the b
 
 To enable all device were tested and various device were explored tablets and mobiles where considered to test the game on. This would ensure this works on multiple devices.
 
-![testing7](images/47.png)
-![testing8](images/48.png)
-![testing9](images/49.png)
+![testing7](https://github.com/tomod24/Books2Review/blob/master/assests/images/47.png))
+![testing8](https://github.com/tomod24/Books2Review/blob/master/assests/images/48.png))
+![testing9](https://github.com/tomod24/Books2Review/blob/master/assests/images/49.png))
 
-![testing10](images/50.png)
-![testing11](images/51.png)
-![testing12](images/52.png)
+![testing10](https://github.com/tomod24/Books2Review/blob/master/assests/images/50.png))
+![testing11](https://github.com/tomod24/Books2Review/blob/master/assests/images/51.png))
+![testing12](https://github.com/tomod24/Books2Review/blob/master/assests/images/52.png))
 
 ## Lighthouse Audit
 
@@ -350,17 +342,17 @@ To enable all device were tested and various device were explored tablets and mo
 
 Accessibility testing was conducted on the site to ensure it was suitable and performing to a suitable score for users and their experience on the website. This way the site can potentially work to its maximum performance. This is completed by selected the lighthouse option on the developer tool and generating a report for the selected device. This can be mobile or desktop devices.
 
-![lighthouse1](images/53.png)
+![lighthouse1](https://github.com/tomod24/Books2Review/blob/master/assests/images/53.png))
 
 The result for mobile was 100 which is acceptable for the website and performance. As mentioned in the mobile review improvement to be completed as a future improvement. . (Image below first check for Books 2 review after the website was functioning)
 
-![lighthouse2](images/54.png)
+![lighthouse2](https://github.com/tomod24/Books2Review/blob/master/assests/images/54.png))
 
 The results for desktop are 99 which is a worthy score for a website but I would look to improve the score where possible this can be a future update and performance improvement. (Image below first check for Books 2 review after the website was functioning)
 
-![lighthouse3](images/55.png)
+![lighthouse3](https://github.com/tomod24/Books2Review/blob/master/assests/images/55.png))
 
-![lighthouse4](images/56.png)
+![lighthouse4](https://github.com/tomod24/Books2Review/blob/master/assests/images/56.png))
 
 Initially the first light house check for mobile and desktop was pretty and a good result but it can be improved which would be best practice to be actioned. Ensuring its suitable for all users. Therefore, the web pages have been reviewed to ensure the code works accordingly and any errors are resolved. The functionality of the website is every important and helps with the loading as well as displaying correctly and providing clean code. For errors the mark up validation was used to ensure any issues were resolved on the order. This was key to checking the code and making sure it would be accessible for all years of the web.
 
@@ -370,8 +362,8 @@ Desktop Accessibility Improvement image
 
 ## Bugs Discovered
 
-![bug1](images/59.png)
-![bug2](images/60.png)
+![bug1](https://github.com/tomod24/Books2Review/blob/master/assests/images/59.png))
+![bug2](https://github.com/tomod24/Books2Review/blob/master/assests/images/60.png))
 
 ### Outstanding Defects
 
