@@ -2,7 +2,7 @@
 
 ![](RackMultipart20201217-4-k4sg7z_html_a899f65ae3f9f5b1.png)
 
-![Title Image](https://github.com/tomod24/Books2Review/blob/master/assets/images/readme/1.png)
+![Title Image](https://github.com/tomod24/Books2Review/Books2Review/images/1.png)
 
 # Introduction
 
