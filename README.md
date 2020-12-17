@@ -144,6 +144,10 @@ Current format and size have been provided from amazon due to the clean book cov
 
 Users don&#39;t have access to deleting books only reviews the admins can remove books. This has been input so that other users of the books on the website or added reviews aren&#39;t reviewed in error.
 
+## Defensive Design
+
+The defensive design was implemented for the information supplied via the form mainly on the website. This was controlling the information input into the website when add new reviews on the website. This would prevent any fields being missing causing website retrieval problems and ensure all the information is supplied when adding any information to the database website. Another measure implemented is if the user is tampering with the website which will provide a 404 error on the website alerting the user of the issue. This is necessary to ensure the users respect and use the sight correctly and what the sites purpose is. Providing accurate and correct book information with reader views supplied
+
 ## Wireframes
 
 Balsamiq frameworks was perfect to get a mock up design and use ideas in website layout and helped me decide site functionality. When creating the home space, it creates a wave of ideas. Designing and planning was much easier using Balsamiq frameworks previous was sketching my site design on paper and pen. If any changes are implemented then I can discuss the changes from the original idea and show how I&#39;ve improved the design. This way it will indicate the improvements and the reasoning behind changing the design.
