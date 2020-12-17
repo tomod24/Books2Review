@@ -28,6 +28,8 @@
             {% if session.user|lower == task.created_by|lower %}
             <a href="{{ url_for('delete_task', task_id=task._id) }}" class="btn-small green accent-4">Done</a>
             <a href="{{ url_for('edit_task', task_id=task._id) }}" class="btn-small light-blue lighten-1">Edit</a>
+                                 <a href="{{ url_for('delete_review', review_id=review._id) }}" class="btn-small  red darken-1 text-shadow">Delete</a>
+                     <a href="{{ url_for('book_review_edit', review_id=review._id) }}" class="btn-small  green darken-1 text-shadow">Edit</a> 
             {% endif %}
          </div>
          <div class="col s9">
