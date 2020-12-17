@@ -2,7 +2,7 @@
 
 ![Title](Books2Review/assests/images/1.png1.png)
 
-(https://github.com/tomod24/Books2Review/blob/master/assets/images/readme/1.png)
+(https://github.com/tomod24/Books2Review/blob/master/assests/images/1.png)
 
 (assests/images/1.png)
 
