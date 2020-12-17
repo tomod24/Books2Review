@@ -1,8 +1,6 @@
-# Books2Review
-
 # Books 2 Review
 
-![](RackMultipart20201217-4-1fkzwfj_html_a899f65ae3f9f5b1.png)
+![](RackMultipart20201217-4-k4sg7z_html_a899f65ae3f9f5b1.png)
 
 # Introduction
 
@@ -69,17 +67,17 @@ The book idea come from my brother due to the knowledge given about how he works
 
 Dafont was a reliable webpage with interesting font to use therefore I have used the following (Badly Stamped). The font selected was from [www.dafont.com](http://www.dafont.com/) it was perfect and suited for the theme of the site. I had I searched through several fonts and believed this was an excellent font giving the site a different dynamic and edge. It had the style that I was looking for and gave the font a better design overall on the webpage. Examples have been provided below.
 
-## ![](RackMultipart20201217-4-1fkzwfj_html_a8a1357e397b4050.png) Colours
+## ![](RackMultipart20201217-4-k4sg7z_html_a8a1357e397b4050.png) Colours
 
 I used the colours selected above as the complicated each other. I searched several sites for good combinations of colours working well together giving a presence. The orange, white, dark grey and black worked very well for me. I believed the sight would be bright for the users and have specific criteria stand out where required. I tried several different colours to check and personally didn&#39;t find it appealing nor did it make an impact on the website when implementing the colour. The colours selected were popular across various sites such as [https://www.tailorbrands.com/blog/logo-color-combinations](https://www.tailorbrands.com/blog/logo-color-combinations). Therefore, as I had seen the colour group together and enjoyed the colours myself I decided it was best to use due to the presence it gave for the website idea and design.
 
-![](RackMultipart20201217-4-1fkzwfj_html_63a5882e6295b427.png) ![](RackMultipart20201217-4-1fkzwfj_html_ff2233b4b6d824ac.png) ![](RackMultipart20201217-4-1fkzwfj_html_14d71bb0846123f1.png) ![](RackMultipart20201217-4-1fkzwfj_html_eaa029ec63bc62bd.png)
+![](RackMultipart20201217-4-k4sg7z_html_63a5882e6295b427.png) ![](RackMultipart20201217-4-k4sg7z_html_ff2233b4b6d824ac.png) ![](RackMultipart20201217-4-k4sg7z_html_14d71bb0846123f1.png) ![](RackMultipart20201217-4-k4sg7z_html_eaa029ec63bc62bd.png)
 
 ## Icons/Images
 
 With the help of font awesome I was able to implement a varied number of icons on to the page. The icons help indicate the requirement or purpose of the section. Example being sign up for the website would be a pen and image logo to upload a picture for the book. The logos give more of a design effect on the website and make it more interactive for users. I believe the icons in the right place and correct icon used bring a custom design to the site and attention to detail supplied. This helps users enjoy and appreciate the site more that it has been created with effective detail and help support users in a hidden way. There are a few examples of the icons added below to show what has been used on the website.
 
-| ![](RackMultipart20201217-4-1fkzwfj_html_7b7287d73a1869a7.png) | ![](RackMultipart20201217-4-1fkzwfj_html_66f5cb1491a16b64.png) | ![](RackMultipart20201217-4-1fkzwfj_html_a7ec326871103b09.png) | ![](RackMultipart20201217-4-1fkzwfj_html_5f594b7900fb8ae3.png) | ![](RackMultipart20201217-4-1fkzwfj_html_ffb0109ad31d5efe.png) | ![](RackMultipart20201217-4-1fkzwfj_html_52f28a9b33f5e4cf.png) |
+| ![](RackMultipart20201217-4-k4sg7z_html_7b7287d73a1869a7.png) | ![](RackMultipart20201217-4-k4sg7z_html_66f5cb1491a16b64.png) | ![](RackMultipart20201217-4-k4sg7z_html_a7ec326871103b09.png) | ![](RackMultipart20201217-4-k4sg7z_html_5f594b7900fb8ae3.png) | ![](RackMultipart20201217-4-k4sg7z_html_ffb0109ad31d5efe.png) | ![](RackMultipart20201217-4-k4sg7z_html_52f28a9b33f5e4cf.png) |
 | --- | --- | --- | --- | --- | --- |
 
 ## Content Section
@@ -100,55 +98,55 @@ Balsamiq frameworks was perfect to get a mock up design and use ideas in website
 
 The created wireframes below will show the design and the idea of how I wanted the website to be laid out from my ideas. I will try and match the wireframe design to the website pages displayed and improve the project as I go if I deem the change necessary. The changes will be mentioned in the final part of the Readme file showing from the original design and the end product. Websites can change when designing due to either improvements implemented or due to errors that need to be fixed and resolved.
 
-![](RackMultipart20201217-4-1fkzwfj_html_7b17f6afbc6f6b95.png)
+![](RackMultipart20201217-4-k4sg7z_html_7b17f6afbc6f6b95.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_d3caca67daea5d27.png)
+![](RackMultipart20201217-4-k4sg7z_html_d3caca67daea5d27.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_8272dd6efd2f5224.png)
+![](RackMultipart20201217-4-k4sg7z_html_8272dd6efd2f5224.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_64211096c70c992c.png)
+![](RackMultipart20201217-4-k4sg7z_html_64211096c70c992c.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_45eb804a4340e4b6.png)
+![](RackMultipart20201217-4-k4sg7z_html_45eb804a4340e4b6.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_200bc7f3e0aabc4.png)
+![](RackMultipart20201217-4-k4sg7z_html_200bc7f3e0aabc4.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_41614cc47be99832.png)
+![](RackMultipart20201217-4-k4sg7z_html_41614cc47be99832.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_bbb28d302f3170b0.png)
+![](RackMultipart20201217-4-k4sg7z_html_bbb28d302f3170b0.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_66ff97dc85a98a1d.png)
+![](RackMultipart20201217-4-k4sg7z_html_66ff97dc85a98a1d.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_6e1bb34d1755b9f7.png)
+![](RackMultipart20201217-4-k4sg7z_html_6e1bb34d1755b9f7.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_38cc25a1fac9addf.png)
+![](RackMultipart20201217-4-k4sg7z_html_38cc25a1fac9addf.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_71eb360df9757001.png)
+![](RackMultipart20201217-4-k4sg7z_html_71eb360df9757001.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_99e466e22cefc648.png)
+![](RackMultipart20201217-4-k4sg7z_html_99e466e22cefc648.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_9afb3919ddc41cc2.png)
+![](RackMultipart20201217-4-k4sg7z_html_9afb3919ddc41cc2.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_cb086870bd97f861.png)
+![](RackMultipart20201217-4-k4sg7z_html_cb086870bd97f861.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_659bd73a38da4838.png)
+![](RackMultipart20201217-4-k4sg7z_html_659bd73a38da4838.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_e7dfc940febb3a0d.png)
+![](RackMultipart20201217-4-k4sg7z_html_e7dfc940febb3a0d.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_f363871d2e698a79.png)
+![](RackMultipart20201217-4-k4sg7z_html_f363871d2e698a79.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_ca7501e815a42637.png)
+![](RackMultipart20201217-4-k4sg7z_html_ca7501e815a42637.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_5937892317920b23.png)
+![](RackMultipart20201217-4-k4sg7z_html_5937892317920b23.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_ad279358786a9c5a.png)
+![](RackMultipart20201217-4-k4sg7z_html_ad279358786a9c5a.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_8c6c23f73e42d789.png)
+![](RackMultipart20201217-4-k4sg7z_html_8c6c23f73e42d789.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_cb960f02a59e3bba.png)
+![](RackMultipart20201217-4-k4sg7z_html_cb960f02a59e3bba.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_98f1d5ebc734fdbf.png)
+![](RackMultipart20201217-4-k4sg7z_html_98f1d5ebc734fdbf.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_972bd349ee9ddaf4.png)
+![](RackMultipart20201217-4-k4sg7z_html_972bd349ee9ddaf4.png)
 
 # Features
 
@@ -158,55 +156,55 @@ The created wireframes below will show the design and the idea of how I wanted t
 
 The book review website will display the latest books on the home page for the users. From here the user can search for a book following the correct criteria in the search bar which is a minimum of three characters using keywords instead of generic words such as the, and etc. The suer can also click the book present and select book details. As a n unregistered user, they have the ability to read the book details, read the review and register. The user cannot edit reviews, add books, manage reviews or delete the reviews.
 
-![](RackMultipart20201217-4-1fkzwfj_html_ded52723c5d2a71f.png)
+![](RackMultipart20201217-4-k4sg7z_html_ded52723c5d2a71f.png)
 
 The book details page when selected shows the information as required posting the latest comments on the page Maximum of 3 at this point in time. The comments will update each time a review is added for the specified book selected to complete a review. The users also see how many likes and dislikes the book has indicated by thumbs images with a up and down icon and number to indicate the amount of likes and dislikes. The book detail page allows users to edit and delete their review if it is visual via the top 3 comments. This is by selecting the collapsible review boxes and once the box jumps down the options if available to the user for their reviews, they can edit or delete the review. The users also have the options to add the review by selecting the review button which takes them to a form to complete for the book review the wish to provide.
 
-![](RackMultipart20201217-4-1fkzwfj_html_609e8b3448631ae4.png)
+![](RackMultipart20201217-4-k4sg7z_html_609e8b3448631ae4.png)
 
 Registered Users
 
-![](RackMultipart20201217-4-1fkzwfj_html_a45b9b68bff9e83b.png)
+![](RackMultipart20201217-4-k4sg7z_html_a45b9b68bff9e83b.png)
 
 As a registered user, the users can have the ability to login into their account and they can add books to the website. This will include the details of the book title, author, description, book image and many more details.
 
 If the user does not provide all the details necessary the book can&#39;t be uploaded until all the fields have been completed.
 
-![](RackMultipart20201217-4-1fkzwfj_html_4570f308bc354e4b.png)
+![](RackMultipart20201217-4-k4sg7z_html_4570f308bc354e4b.png)
 
 Once the details have been applied correctly. The user will receive an update stating they have successfully uploaded a book.
 
 Once updated and completed successfully the user will be able to see the book on the home page. This will be the page the user is redirected to on the order once completed.
 
-![](RackMultipart20201217-4-1fkzwfj_html_2ecec26d8a3c0ade.png)
+![](RackMultipart20201217-4-k4sg7z_html_2ecec26d8a3c0ade.png)
 
 The user has the ability to add reviews to the website by selecting the book details on their chosen book. This will then lead them to the book details page and from here they can select an add review button to that particular book.
 
-![](RackMultipart20201217-4-1fkzwfj_html_f2048d5faafd5973.png)
+![](RackMultipart20201217-4-k4sg7z_html_f2048d5faafd5973.png)
 
 The user can then add a review the like button is automatically ticked by the user can change it to dislike the book if required by ticking the box.
 
-![](RackMultipart20201217-4-1fkzwfj_html_1ee29c3f484fedd5.png)
+![](RackMultipart20201217-4-k4sg7z_html_1ee29c3f484fedd5.png)
 
 Once completed with the vote, review details add review button clicked you will get a successful message. Confirming the details have been added correctly.
 
-![](RackMultipart20201217-4-1fkzwfj_html_8b1a1b53d1ba34e9.png)
+![](RackMultipart20201217-4-k4sg7z_html_8b1a1b53d1ba34e9.png)
 
 Edit Book Review Feature
 
 The users can also go on to their reviews and edit if they wish to change something or delete the review. This is for users to control their rumours&#39; accordingly and if errors need amending or they change their opinion the actions can be completed. The users would select the review they posted only this would be via the profile page or on the books page if the review is still available. This is because the reviews are the three most recent revises.
 
-![](RackMultipart20201217-4-1fkzwfj_html_34bafefad24e43dd.png)
+![](RackMultipart20201217-4-k4sg7z_html_34bafefad24e43dd.png)
 
 The user can change their vote or their review details. Once complete the user can save the details and this will reflect correctly and also produce an updated message once completed.
 
-![](RackMultipart20201217-4-1fkzwfj_html_a43e244143a548b2.png)
+![](RackMultipart20201217-4-k4sg7z_html_a43e244143a548b2.png)
 
 Delete Book Review Feature
 
 Users have the ability to delete any reviews they no longer wish or if they just don&#39;t want it on their profile. Only the admin has the ability to delete any reviews for any user. When selecting the delete option the user has the red button for delete to select. Once they press this button, they can&#39;t reverse the action the review will be simply deleted and they will go back to the home page.
 
-![](RackMultipart20201217-4-1fkzwfj_html_4873ec95c0d4683a.png)
+![](RackMultipart20201217-4-k4sg7z_html_4873ec95c0d4683a.png)
 
 ## Features to Improve/Implement
 
@@ -240,9 +238,9 @@ For the website the following programming languages have been used HTML, CSS, He
 - [JQuery](https://jquery.com/) - used to simplify some DOM manipulation for certain functions
 - [GitPod](https://gitpod.io/) – Great toll to be sued for the development of the website and using the platform to complete the website as required. This helped fulfil the potential to complete the website.
 - [Heroku](https://dashboard.heroku.com/) – Launch the application code via Heroku used via deployment
-- [Materialize](https://materializecss.com/)
+- [Materialize](https://materializecss.com/) – Helped support the coding queries necessary such as colours and grid information when necessary. The site also made footers very easy to include.
 - [Favicon](https://favicon.io/favicon-generator/) - Used to provide unique logo for the web page icon section
-- Dafont for the site font styled for a customer and unique feel. [www.dafont.com](http://www.dafont.com/)
+- [Dafont](http://www.dafont.com/) for the site font styled for a customer and unique feel.
 - [Basalmiq](https://balsamiq.com/wireframes/desktop/) - Used for wireframe creation using professional tools to support the design
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) - Audit you used it for your accessibility testing
 
@@ -252,9 +250,9 @@ For the website the following programming languages have been used HTML, CSS, He
 
 This project was required to be based on a NoSQL database structure so MongoDb was used.
 
-![](RackMultipart20201217-4-1fkzwfj_html_f445f8679745e9e6.png) ![](RackMultipart20201217-4-1fkzwfj_html_c6cab398e31a2a7c.png)
+![](RackMultipart20201217-4-k4sg7z_html_f445f8679745e9e6.png) ![](RackMultipart20201217-4-k4sg7z_html_c6cab398e31a2a7c.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_3f189cb28289e555.png)
+![](RackMultipart20201217-4-k4sg7z_html_3f189cb28289e555.png)
 
 ### Data Models
 
@@ -297,7 +295,7 @@ Manual testing was completed on the website. This included book searches, detail
 
 ### Testing Client Stories from UX Section
 
-Manually testing was completed to ensure the website met the user/ user stories requirements. This would ensure the website has been checked and satisfies the users. This including what they want the website to do and how they want it to work.
+Manually testing was completed to ensure the website met the user stories requirements. This would ensure the website has been checked and satisfies the users. This including what they want the website to do and how they want it to work. A list of the requirements has been provided below for reference. This is to show the testing&#39;s made and also the results of the tests. This would help satisfy the users of the website.
 
 ### Cross Browser Testing
 
@@ -331,7 +329,7 @@ Various browsers were tested with the game link to ensure it would work on the b
 | **View book description** | Choose a book to review and click the books details and try to view the book description | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Book details clearly visible on the screen for users to read. |
 | **Register for website** | Click the register button on the nav bar and attempt to register username and password | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Registered for website using Test02 gaining access loading up reviews page which states no review upon registration |
 | **Add Book** | Register an account with the website once complete go to the add books button on the navigation bar | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Adding book after registration successful New book uploaded. |
-| **Review amend** | Select any book and click the book details complete a review. Once complete go to the book details again or select the profile page to amend the review. Click the review button and press edit. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Successfully amended a uploaded review. Reviews can be amended including the like and dislike switch can be changed. |
+| **Review amend** | Select any book and click the book details complete a review. Once complete go to the book details again or select the profile page to amend the review. Click the review button and press edit. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Successfully amended an uploaded review. Reviews can be amended including the like and dislike switch can be changed. |
 | **Click the various links throughout the web page** | **Attempt to click three examples on the website Book details page, home page and the linkedIn link provided** | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | All options are easy to find book details clear on the books and link on the home page., Home page can be easily access via the home button and the linkedin link on the footer works correctly. |
 | **Add a like/Dislike on the book reviews** | Find a book to review and click the details. Once selected click add a review. When completing the book review attempt to click the like or dislike button. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Completed with ease easily accessible and a simple click like or dislike for the book which displays on the book details page. |
 | **Review latest reviews** | Select any book of your choosing ensuring it has reviews. Once selected attempt to review the latest review which will be at the top of the page. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Latest review details are displayed in the correct order and the review have a date and time stamp available. |
@@ -359,7 +357,7 @@ Various browsers were tested with the game link to ensure it would work on the b
 | **View book description** | Choose a book to review and click the books details and try to view the book description | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Book details clearly visible on the screen for users to read. |
 | **Register for website** | Click the register button on the nav bar and attempt to register username and password | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Registered for website using Test02 gaining access loading up reviews page which states no review upon registration |
 | **Add Book** | Register an account with the website once complete go to the add books button on the navigation bar | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Adding book after registration successful New book uploaded. |
-| **Review amend** | Select any book and click the book details complete a review. Once complete go to the book details again or select the profile page to amend the review. Click the review button and press edit. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Successfully amended a uploaded review. Reviews can be amended including the like and dislike switch can be changed. |
+| **Review amend** | Select any book and click the book details complete a review. Once complete go to the book details again or select the profile page to amend the review. Click the review button and press edit. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Successfully amended an uploaded review. Reviews can be amended including the like and dislike switch can be changed. |
 | **Click the various links throughout the web page** | **Attempt to click three examples on the website Book details page, home page and the linkedIn link provided** | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | All options are easy to find book details clear on the books and link on the home page., Home page can be easily access via the home button and the linkedin link on the footer works correctly. |
 | **Add a like/Dislike on the book reviews** | Find a book to review and click the details. Once selected click add a review. When completing the book review attempt to click the like or dislike button. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Completed with ease easily accessible and a simple click like or dislike for the book which displays on the book details page. |
 | **Review latest reviews** | Select any book of your choosing ensuring it has reviews. Once selected attempt to review the latest review which will be at the top of the page. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Latest review details are displayed in the correct order and the review have a date and time stamp available. |
@@ -393,7 +391,7 @@ To enable all device were tested and various device were explored tablets and mo
 | **View book description** | Choose a book to review and click the books details and try to view the book description | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Book details clearly visible on the screen for users to read. |
 | **Register for website** | Click the register button on the nav bar and attempt to register username and password | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Registered for website using Test02 gaining access loading up reviews page which states no review upon registration |
 | **Add Book** | Register an account with the website once complete go to the add books button on the navigation bar | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Adding book after registration successful New book uploaded. |
-| **Review amend** | Select any book and click the book details complete a review. Once complete go to the book details again or select the profile page to amend the review. Click the review button and press edit. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Successfully amended a uploaded review. Reviews can be amended including the like and dislike switch can be changed. |
+| **Review amend** | Select any book and click the book details complete a review. Once complete go to the book details again or select the profile page to amend the review. Click the review button and press edit. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Successfully amended an uploaded review. Reviews can be amended including the like and dislike switch can be changed. |
 | **Click the various links throughout the web page** | **Attempt to click three examples on the website Book details page, home page and the linkedIn link provided** | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | All options are easy to find book details clear on the books and link on the home page., Home page can be easily access via the home button and the linkedin link on the footer works correctly. |
 | **Add a like/Dislike on the book reviews** | Find a book to review and click the details. Once selected click add a review. When completing the book review attempt to click the like or dislike button. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Completed with ease easily accessible and a simple click like or dislike for the book which displays on the book details page. |
 | **Review latest reviews** | Select any book of your choosing ensuring it has reviews. Once selected attempt to review the latest review which will be at the top of the page. | Yes | Yes | Yes | Yes | Yes | Yes | 16/12/2020 | Latest review details are displayed in the correct order and the review have a date and time stamp available. |
@@ -440,17 +438,17 @@ To enable all device were tested and various device were explored tablets and mo
 
 Accessibility testing was conducted on the site to ensure it was suitable and performing to a suitable score for users and their experience on the website. This way the site can potentially work to its maximum performance. This is completed by selected the lighthouse option on the developer tool and generating a report for the selected device. This can be mobile or desktop devices.
 
-![](RackMultipart20201217-4-1fkzwfj_html_35bd7b1ecf9d9ed0.png)
+![](RackMultipart20201217-4-k4sg7z_html_35bd7b1ecf9d9ed0.png)
 
 The result for mobile was 100 which is acceptable for the website and performance. As mentioned in the mobile review improvement to be completed as a future improvement. . (Image below first check for Books 2 review after the website was functioning)
 
-![](RackMultipart20201217-4-1fkzwfj_html_fb83c331cbb0a522.png)
+![](RackMultipart20201217-4-k4sg7z_html_fb83c331cbb0a522.png)
 
 The results for desktop are 99 which is a worthy score for a website but I would look to improve the score where possible this can be a future update and performance improvement. (Image below first check for Books 2 review after the website was functioning)
 
-![](RackMultipart20201217-4-1fkzwfj_html_720e1a8c66f8707.png)
+![](RackMultipart20201217-4-k4sg7z_html_720e1a8c66f8707.png)
 
-![](RackMultipart20201217-4-1fkzwfj_html_ebfa2e7bab79b70c.png)
+![](RackMultipart20201217-4-k4sg7z_html_ebfa2e7bab79b70c.png)
 
 Initially the first light house check for mobile and desktop was pretty and a good result but it can be improved which would be best practice to be actioned. Ensuring its suitable for all users. Therefore, the web pages have been reviewed to ensure the code works accordingly and any errors are resolved. The functionality of the website is every important and helps with the loading as well as displaying correctly and providing clean code. For errors the mark up validation was used to ensure any issues were resolved on the order. This was key to checking the code and making sure it would be accessible for all years of the web.
 
