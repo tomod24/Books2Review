@@ -2,6 +2,8 @@
 
 ![Title](Books2Review/assests/images/1.png1.png)
 
+(assests/images/1.png)
+
 # Introduction
 
 Books 2 Review is a database website where users/clients can provide a review for a particular book for others to read and share their thoughts. This website will use the information provided by registered users to provide the information. If the users register, they can use more of the features such as adding books, reviews, amends and deleting review if necessary. The site will be designed to provide a simple but powerful attractive site for users to share their thoughts and opinions. This will also give them the opportunity to also learn about which books are recommended by other users.
