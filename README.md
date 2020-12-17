@@ -1,3 +1,60 @@
+- [Books 2 Review](#books-2-review)
+- [Introduction](#introduction)
+- [UX](#ux)
+  * [Project objectives](#project-objectives)
+  * [User Goals](#user-goals)
+  * [Developer Goals](#developer-goals)
+    + [Demonstrate a solid understanding of MongoDB, Heroku and Python](#demonstrate-a-solid-understanding-of-mongodb--heroku-and-python)
+    + [Build a friendly and useful book review website](#build-a-friendly-and-useful-book-review-website)
+    + [Build up portfolio with a great project](#build-up-portfolio-with-a-great-project)
+    + [Make the site easy to use and navigate which provides a positive experience](#make-the-site-easy-to-use-and-navigate-which-provides-a-positive-experience)
+    + [Website Owner Goals](#website-owner-goals)
+    + [Have an easy-to-use site that encourages users to interact with it](#have-an-easy-to-use-site-that-encourages-users-to-interact-with-it)
+    + [Gain affiliate relationships to cross sell books](#gain-affiliate-relationships-to-cross-sell-books)
+  * [User Stories](#user-stories)
+- [Design](#design)
+  * [Inspiration:](#inspiration-)
+  * [Font](#font)
+  * [Colours](#colours)
+  * [Icons/Images](#icons-images)
+  * [Content Section](#content-section)
+  * [Wireframes](#wireframes)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+    + [Site Features for Non-registered/Registered Users](#site-features-for-non-registered-registered-users)
+  * [Features to Improve/Implement](#features-to-improve-implement)
+    + [1. e-book speech](#1-e-book-speech)
+    + [2. Book Linking](#2-book-linking)
+    + [3. Book Recommendations for users](#3-book-recommendations-for-users)
+    + [4. Theme Swaps](#4-theme-swaps)
+  * [Scalable and Easy to Maintain Code](#scalable-and-easy-to-maintain-code)
+    + [Make Code easier to maintain](#make-code-easier-to-maintain)
+- [Technologies used](#technologies-used)
+  * [Data Infrastructure](#data-infrastructure)
+    + [Database Choice](#database-choice)
+    + [Data Models](#data-models)
+      - [Users](#users)
+- [Testing](#testing)
+  * [Validation Testing](#validation-testing)
+  * [User Stories Testing](#user-stories-testing)
+    + [Automated](#automated)
+    + [Manual](#manual)
+    + [Testing Client Stories from UX Section](#testing-client-stories-from-ux-section)
+    + [Cross Browser Testing](#cross-browser-testing)
+    + [Device Testing](#device-testing)
+  * [Lighthouse Audit](#lighthouse-audit)
+  * [Bugs Discovered](#bugs-discovered)
+    + [Outstanding Defects](#outstanding-defects)
+- [Deployment](#deployment)
+  * [Deploy to GitHub Pages](#deploy-to-github-pages)
+  * [Deploying the application to Heroku](#deploying-the-application-to-heroku)
+  * [Connecting to MongoGo DB](#connecting-to-mongogo-db)
+  * [How to run the project locally](#how-to-run-the-project-locally)
+  * [How to download github files and upload](#how-to-download-github-files-and-upload)
+  * [Content/Media](#content-media)
+  * [Code](#code)
+  * [Acknowledgements](#acknowledgements)
+
 # Books 2 Review
 
 ![Title](https://github.com/tomod24/Books2Review/blob/master/assests/images/1.png)
@@ -113,41 +170,41 @@ The created wireframes below will show the design and the idea of how I wanted t
 
 ![wireframe7](https://github.com/tomod24/Books2Review/blob/master/assests/images/11.png)
 
-![wireframe8](https://github.com/tomod24/Books2Review/blob/master/assests/images/12.png))
+![wireframe8](https://github.com/tomod24/Books2Review/blob/master/assests/images/12.png)
 
-![wireframe9](https://github.com/tomod24/Books2Review/blob/master/assests/images/13.png))
+![wireframe9](https://github.com/tomod24/Books2Review/blob/master/assests/images/13.png)
 
-![wireframe10](https://github.com/tomod24/Books2Review/blob/master/assests/images/14.png))
+![wireframe10](https://github.com/tomod24/Books2Review/blob/master/assests/images/14.png)
 
-![wireframe11](https://github.com/tomod24/Books2Review/blob/master/assests/images/15.png))
+![wireframe11](https://github.com/tomod24/Books2Review/blob/master/assests/images/15.png)
 
-![wireframe12](https://github.com/tomod24/Books2Review/blob/master/assests/images/16.png))
+![wireframe12](https://github.com/tomod24/Books2Review/blob/master/assests/images/16.png)
 
-![wireframe13](https://github.com/tomod24/Books2Review/blob/master/assests/images/17.png))
+![wireframe13](https://github.com/tomod24/Books2Review/blob/master/assests/images/17.png)
 
-![wireframe14](https://github.com/tomod24/Books2Review/blob/master/assests/images/18.png))
+![wireframe14](https://github.com/tomod24/Books2Review/blob/master/assests/images/18.png)
 
-![wireframe15](https://github.com/tomod24/Books2Review/blob/master/assests/images/19.png))
+![wireframe15](https://github.com/tomod24/Books2Review/blob/master/assests/images/19.png)
 
-![wireframe16](https://github.com/tomod24/Books2Review/blob/master/assests/images/20.png))
+![wireframe16](https://github.com/tomod24/Books2Review/blob/master/assests/images/20.png)
 
-![wireframe17](https://github.com/tomod24/Books2Review/blob/master/assests/images/21.png))
+![wireframe17](https://github.com/tomod24/Books2Review/blob/master/assests/images/21.png)
 
-![wireframe18](https://github.com/tomod24/Books2Review/blob/master/assests/images/22.png))
+![wireframe18](https://github.com/tomod24/Books2Review/blob/master/assests/images/22.png)
 
-![wireframe19](https://github.com/tomod24/Books2Review/blob/master/assests/images/23.png))
+![wireframe19](https://github.com/tomod24/Books2Review/blob/master/assests/images/23.png)
 
-![wireframe20](https://github.com/tomod24/Books2Review/blob/master/assests/images/24.png))
+![wireframe20](https://github.com/tomod24/Books2Review/blob/master/assests/images/24.png)
 
-![wireframe21](https://github.com/tomod24/Books2Review/blob/master/assests/images/25.png))
+![wireframe21](https://github.com/tomod24/Books2Review/blob/master/assests/images/25.png)
 
-![wireframe22](https://github.com/tomod24/Books2Review/blob/master/assests/images/26.png))
+![wireframe22](https://github.com/tomod24/Books2Review/blob/master/assests/images/26.png)
 
-![wireframe23](https://github.com/tomod24/Books2Review/blob/master/assests/images/27.png))
+![wireframe23](https://github.com/tomod24/Books2Review/blob/master/assests/images/27.png)
 
-![wireframe24](https://github.com/tomod24/Books2Review/blob/master/assests/images/28.png))
+![wireframe24](https://github.com/tomod24/Books2Review/blob/master/assests/images/28.png)
 
-![wireframe25](https://github.com/tomod24/Books2Review/blob/master/assests/images/29.png))
+![wireframe25](https://github.com/tomod24/Books2Review/blob/master/assests/images/29.png)
 
 
 # Features
@@ -158,50 +215,50 @@ The created wireframes below will show the design and the idea of how I wanted t
 
 The book review website will display the latest books on the home page for the users. From here the user can search for a book following the correct criteria in the search bar which is a minimum of three characters using keywords instead of generic words such as the, and etc. The suer can also click the book present and select book details. As a n unregistered user, they have the ability to read the book details, read the review and register. The user cannot edit reviews, add books, manage reviews or delete the reviews.
 
-![home](https://github.com/tomod24/Books2Review/blob/master/assests/images/30.png))
+![home](https://github.com/tomod24/Books2Review/blob/master/assests/images/30.png)
 
 The book details page when selected shows the information as required posting the latest comments on the page Maximum of 3 at this point in time. The comments will update each time a review is added for the specified book selected to complete a review. The users also see how many likes and dislikes the book has indicated by thumbs images with a up and down icon and number to indicate the amount of likes and dislikes. The book detail page allows users to edit and delete their review if it is visual via the top 3 comments. This is by selecting the collapsible review boxes and once the box jumps down the options if available to the user for their reviews, they can edit or delete the review. The users also have the options to add the review by selecting the review button which takes them to a form to complete for the book review the wish to provide.
 
-![book_details](https://github.com/tomod24/Books2Review/blob/master/assests/images/31.png))
+![book_details](https://github.com/tomod24/Books2Review/blob/master/assests/images/31.png)
 
 Registered Users
 
-![register_users](https://github.com/tomod24/Books2Review/blob/master/assests/images/32.png))
+![register_users](https://github.com/tomod24/Books2Review/blob/master/assests/images/32.png)
 
 As a registered user, the users can have the ability to login into their account and they can add reviews only the admin can add the books. This will include the details of the book title, author, description, book image and many more details. 
 If the admin does not provide all the details necessary the book can’t be uploaded until all the fields have been completed.
 
 If the user does not provide all the details necessary the book can&#39;t be uploaded until all the fields have been completed.
 
-![add_books](https://github.com/tomod24/Books2Review/blob/master/assests/images/33.png))
+![add_books](https://github.com/tomod24/Books2Review/blob/master/assests/images/33.png)
 
 Once the details have been applied correctly. The user will receive an update stating they have successfully uploaded a book.
 
 Once updated and completed successfully the user will be able to see the book on the home page. This will be the page the user is redirected to on the order once completed.
 
-![add_books2](https://github.com/tomod24/Books2Review/blob/master/assests/images/34.png))
+![add_books2](https://github.com/tomod24/Books2Review/blob/master/assests/images/34.png)
 
 The user has the ability to add reviews to the website by selecting the book details on their chosen book. This will then lead them to the book details page and from here they can select an add review button to that particular book.
 
-![add_review](https://github.com/tomod24/Books2Review/blob/master/assests/images/35.png))
+![add_review](https://github.com/tomod24/Books2Review/blob/master/assests/images/35.png)
 
 The user can then add a review the like button is automatically ticked by the user can change it to dislike the book if required by ticking the box.
 
-![add_books2](https://github.com/tomod24/Books2Review/blob/master/assests/images/36.png))
+![add_books2](https://github.com/tomod24/Books2Review/blob/master/assests/images/36.png)
 
 Once the details have been applied correctly. The admin will receive an update stating they have successfully uploaded a book.
 
-![add_books3](https://github.com/tomod24/Books2Review/blob/master/assests/images/37.png))
+![add_books3](https://github.com/tomod24/Books2Review/blob/master/assests/images/37.png)
 
 Edit Book Review Feature
 
 The users can also go on to their reviews and edit if they wish to change something or delete the review. This is for users to control their rumours&#39; accordingly and if errors need amending or they change their opinion the actions can be completed. The users would select the review they posted only this would be via the profile page or on the books page if the review is still available. This is because the reviews are the three most recent revises.
 
-![edit_review](https://github.com/tomod24/Books2Review/blob/master/assests/images/38.png))
+![edit_review](https://github.com/tomod24/Books2Review/blob/master/assests/images/38.png)
 
 The user can change their vote or their review details. Once complete the user can save the details and this will reflect correctly and also produce an updated message once completed.
 
-![edit_review](https://github.com/tomod24/Books2Review/blob/master/assests/images/39.png))
+![edit_review](https://github.com/tomod24/Books2Review/blob/master/assests/images/39.png)
 
 Delete Book Review Feature
 
