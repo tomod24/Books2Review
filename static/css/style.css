@@ -72,7 +72,7 @@ input[type=file] {
 }
 /*404 error page css details*/
 .err {
-    color: #ffffff;
+    color: black;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 11rem;
 }
@@ -80,7 +80,6 @@ input[type=file] {
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.6rem;
-    width: 75%;
     padding-bottom: 20px;
 }
 a {
@@ -130,7 +129,7 @@ p > a {
     border-bottom: 1px dashed #216f79;
     font-style: italic;
     text-decoration: none;
-    color: #216f79;
+    color: #e65100  ;
 }
 p > a:hover {
     text-shadow: 0 0 6px #216f79;
