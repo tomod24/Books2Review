@@ -308,24 +308,41 @@ For the website the following programming languages have been used HTML, CSS, He
 
 This project was required to be based on a NoSQL database structure so MongoDb was used.
 
+### CRUD Functionality
 
 ### Data Models
 
-Data stored in Books2Review MongoDB consist of these types:
+Data stored in Books2Review MongoDB consist of these data types:
 
 - Date
 - String
 - Object Id
 - Boolean
 
-#### Users
+**Users**
 
-The USERS collection insures users are unique and helps track permissions for adding, updating and deleting data to other
-
-- Create – users are ceated when a user registers for the site. A user must register if they want to add a review.
+- The USERS collection ensures users are unique and helps track permissions for adding, updating and deleting data to other
+- Create – users are created when a user registers for the site. A user must register if they want to add a review. The users can view the books and reviews but cant add any content or reviews personally.
 - Read – users are read when logging in and when viewing the profile page.
-- Update – users are not updated as this point in time.
-- Delete – users are not deleted at this point in time.
+- Update – users are not updated as this point in time future input can be contact details but as it is only an educational website personal details will not be provided
+- Delete – users are not deleted on the system.
+
+**Books**
+
+- The BOOKS are the database collection for the information on the website and makes the website function correctly and fulfilling its purpose. Books are unique and there is only one of their kind. Books are updated by users but can be added by the admin team.
+- Create – books are created by the Admin user when new books come out and they want to upload them for review they can be processed by the admin only. This is so the users can just find the book they want and review it instead of obtaining books details.
+- Read – books are read by users and admin on the site. They book details will also be read when uploading to book details page and the home page.
+- Update – feature is not yet implemented.
+- Delete – feature is not yet implemented.
+
+**Reviews**
+
+- The Reviews are supplied by the users the more reviews on site the more active the site is. This tracks popular books on the website also for users.
+- Create – users can create reviews on the books including admin stored on the database for all site visitors to review.
+- Read – reviews can be read by all users. Visitors, admin and registered users.
+- Update – users can update their review only and no other registered users. Admin can update all reviews
+- Delete – users/admin can delete the reviews on site.
+
 
 # Testing
 
