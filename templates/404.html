@@ -1,13 +1,12 @@
 {% extends "base.html" %}
   {% block content %}
     <div class="container center">
-      <div class ="row">
-        <div class = "col s1 m4 l12">
-            <div class="err">4</div>
-                <i class="far fa-question-circle fa-spin"></i>
-            <div class="err2">4</div>
-        <div class="msg">Maybe this Book doesnt exist? Got deleted? Lost in a Library? Never got Written?<p>Lets Click <a href="{{ url_for('get_books') }}">Home</a> and Start Again</p>
-        </div>
+        <div class="row">
+        <div class="col s12 m4 l2"><p>4</p>
+        <p><i class="far fa-question-circle fa-spin"></i></p>
+        <p>4</p>
     </div>
+        <div class="col s12 m4 l8"><p>Maybe this Book doesnt exist? Got deleted? Lost in a Library? Never got Written?</p></div>
+        <div class="col s12 m4 l8"><p>Lets Click <a href="{{ url_for('get_books') }}">Home</a> and Start Again</p></div>
     </div>
     {% endblock %}
