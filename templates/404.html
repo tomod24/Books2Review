@@ -1,14 +1,11 @@
 {% extends "base.html" %}
   {% block content %}
-  <div class="mainbox orange darken-4">
-      <div class="row">
-       <div class="col s12 m6">
+  <div class="col s12 m6">
+        <div class="mainbox">
     <div class="err">4</div>
     <i class="far fa-question-circle fa-spin"></i>
     <div class="err2">4</div>
-    <div class="msg">Maybe this Book doesnt exist? Got deleted? Lost in a Library? Never got Written?
-        <p>Lets Click <a href="{{ url_for('get_books') }}">home</a> and try from there.</p></div>
+    <div class="msg">Maybe this page moved? Got deleted? Is hiding out in quarantine? Never existed in the first place?<p>Let's go <a href="{{ url_for('get_books') }}">home</a> and try from there.</p></div>
       </div>
       </div>
-      </div>
-{% endblock %}
+      {% endblock %}
