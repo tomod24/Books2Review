@@ -1,9 +1,15 @@
 {% extends "base.html" %}
-  {% block content %}
-<div class="row">
-  <div class="col"><h1>500</h1></div>
-  <div class="col"><p>Sorry, it's me, not you.</p></div>
-  <div class="col"><p>&#58;&#40;</p></div>
-  <div class="col"><p><a href="/">Let me try again!</a></p></div>
-  {% endblock %}
-
+{% block content %}
+    <div class="row center">
+        <div class="col s12 m6 offset-m3">
+            <div class="err">500</div>
+            <div class="msg">
+                <p>Sorry, it's me, not you.</p>
+                <p>
+                    Click <a href="{{ url_for('get_books') }}">Here</a> to Start Again
+                </p>
+            </div>
+        </div>
+    </div>
+    <br/>
+{% endblock %}

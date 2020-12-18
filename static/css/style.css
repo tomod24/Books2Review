@@ -1,54 +1,42 @@
- .text-shadow {
+.text-shadow {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
-
 .flashes h4 {
     line-height: 2;
 }
-
 .btn-small {
     margin: 5px;
 }
-
 .collapsible-header .col strong {
     margin: 5px;
     line-height: 42px;
 }
-
-html { 
-  background: url("https://media.istockphoto.com/photos/row-of-old-books-with-colorful-covers-on-pastel-blue-background-up-picture-id1126130554?k=6&m=1126130554&s=170667a&w=0&h=Q5yME6gGtwJGY1uNAPRzy1v1dQ0jlD6GuPNzCtWUsIE=") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+html {
+    background: url("https://media.istockphoto.com/photos/row-of-old-books-with-colorful-covers-on-pastel-blue-background-up-picture-id1126130554?k=6&m=1126130554&s=170667a&w=0&h=Q5yME6gGtwJGY1uNAPRzy1v1dQ0jlD6GuPNzCtWUsIE=") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-
-
 /*footer styling for remaining at the bottom of the page and being responsive with the website cotent*/
-  body {
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
-
-  main {
-    flex: 1 0 auto;
-  }
-
-
-/*centered the container-fluid on the page if required this will amended for individual requirements.*/
- .container-sm
- {  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-
-  input[type=file] {
-    margin-top: 45px;
-   color: gray;
 }
-
+main {
+    flex: 1 0 auto;
+}
+/*centered the container-fluid on the page if required this will amended for individual requirements.*/
+.container-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=file] {
+    margin-top: 45px;
+    color: gray;
+}
 /*book styling when displaying*/
 .card .card-image img {
     max-height: 150px;
@@ -57,12 +45,10 @@ html {
     margin: 0 auto;
     height: center;
 }
-
 /*switch margin*/
 .switch {
     margin-left: 40px;
 }
-
 .card .card-content {
     padding: 24px;
     border-radius: 0 0 2px 2px;
@@ -71,117 +57,81 @@ html {
     flex-direction: column;
     justify-content: space-between;
 }
-
-
 /* small devices (600px and lower) */
 @media only screen and (max-width: 600px) {
-    h2.header{
+    h2.header {
         font-size: 1.8rem;
     }
-    .card.large{
-       height: auto;
+    .card.large {
+        height: auto;
     }
-    .card.large img{
+    .card.large img {
         height: auto;
         width: 100%;
     }
 }
-
 /*404 error page css details*/
-.mainbox {
-  background-color: #95c2de;
-  margin: auto;
-  height: 600px;
-  width: 600px;
-  position: relative;
-}
-
-  .err {
+.err {
     color: #ffffff;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 11rem;
-    position:absolute;
-    left: 20%;
-    top: 8%;
-  }
-
-.far {
-  position: absolute;
-  font-size: 8.5rem;
-  left: 42%;
-  top: 15%;
-  color: #ffffff;
 }
-
- .err2 {
-    color: #ffffff;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 11rem;
-    position:absolute;
-    left: 68%;
-    top: 8%;
-  }
-
 .msg {
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.6rem;
-    position:absolute;
-    left: 16%;
-    top: 45%;
     width: 75%;
-  }
-
+    padding-bottom: 20px;
+}
 a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
-
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
-
 /*505 code*/
-html { box-sizing: border-box; }
-
+html {
+    box-sizing: border-box;
+}
 *,
 *::before,
-*::after { box-sizing: inherit; }
-
-
-.wrapper {
-  position: relative;
-  max-width: 1298px;
-  height: auto;
-  margin: 2em auto 0 auto;
+*::after {
+    box-sizing: inherit;
 }
-
+.wrapper {
+    position: relative;
+    max-width: 1298px;
+    height: auto;
+    margin: 2em auto 0 auto;
+}
 /* https://www.flaticon.com/authors/vectors-market */
 /* https://www.flaticon.com/authors/icomoon */
 .box {
-  max-width: 70%;
-  min-height: auto;
-  margin: 0 auto;
-  padding: 1em 1em;
-  text-align: center;
-  background: url("https://www.dropbox.com/s/xq0841cp3icnuqd/flame.png?raw=1") no-repeat top 10em center/128px 128px,
-              transparent url("https://www.dropbox.com/s/w7qqrcvhlx3pwnf/desktop-pc.png?raw=1") no-repeat top 13em center/128px 128px;
+    max-width: 70%;
+    min-height: auto;
+    margin: 0 auto;
+    padding: 1em 1em;
+    text-align: center;
+    background: url("https://www.dropbox.com/s/xq0841cp3icnuqd/flame.png?raw=1") no-repeat top 10em center/128px 128px,
+    transparent url("https://www.dropbox.com/s/w7qqrcvhlx3pwnf/desktop-pc.png?raw=1") no-repeat top 13em center/128px 128px;
 }
-
-h1, p:not(:last-of-type) { text-shadow: 0 0 6px #216f79; }
-
+h1, p:not(:last-of-type) {
+    text-shadow: 0 0 6px #216f79;
+}
 h1 {
-  margin: 0 0 1rem 0;
-  font-size: 8em;
+    margin: 0 0 1rem 0;
+    font-size: 8em;
 }
-
-p:first-of-type { margin-top: 4em; }
-
+p:first-of-type {
+    margin-top: 4em;
+}
 p > a {
-  border-bottom: 1px dashed #216f79;
-  font-style: italic;
-  text-decoration: none;
-  color: #216f79;
+    border-bottom: 1px dashed #216f79;
+    font-style: italic;
+    text-decoration: none;
+    color: #216f79;
 }
-
-p > a:hover { text-shadow: 0 0 6px #216f79; }
+p > a:hover {
+    text-shadow: 0 0 6px #216f79;
+}
