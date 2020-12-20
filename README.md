@@ -523,7 +523,7 @@ To clone the project from GitHub:
 ## Code
 
 - Book scaling on the home page. [https://css-tricks.com/snippets/jquery/equalize-heights-of-divs/](https://css-tricks.com/snippets/jquery/equalize-heights-of-divs/)
-- Heroku
+- Heroku - Depploiyment system used excellent tool supplying the website and connecting the information together with gitpod. [https://id.heroku.com/login] (https://www.heroku.com/)
 - Materialize – Colour coding from Materialize excellent source of colours and styling used on the webpage which help make it easier selecting the colours to match and styles. [https://materializecss.com/color.html](https://materializecss.com/color.html)
 - Materialize – Cards used for the books details and displaying purposes helping provide the information in a clean format for users to review. [https://materializecss.com/cards.html](https://materializecss.com/cards.html)
 - Purplemoss - [https://codepen.io/purplexmoss/pen/PoPyzMW](https://codepen.io/purplexmoss/pen/PoPyzMW) acknowledgement for the 400 error template page making the design look more improved if any errors occur. Via code pen
