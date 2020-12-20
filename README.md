@@ -428,9 +428,13 @@ The results for desktop are 99 which is a worthy score for a website but I would
 
 Initially the first light house check for mobile and desktop was pretty and a good result but it can be improved which would be best practice to be actioned. Ensuring its suitable for all users. Therefore, the web pages have been reviewed to ensure the code works accordingly and any errors are resolved. The functionality of the website is every important and helps with the loading as well as displaying correctly and providing clean code. For errors the mark up validation was used to ensure any issues were resolved on the order. This was key to checking the code and making sure it would be accessible for all years of the web.
 
-Mobile Accessibility Improvement image
+Mobile Accessibility Improved Lighthouse Results
 
-Desktop Accessibility Improvement image
+![lighthouse5](https://github.com/tomod24/Books2Review/blob/master/assets/images/57.png)
+
+DesktopAccessibility Improved Lighthouse Results
+
+![lighthouse6](https://github.com/tomod24/Books2Review/blob/master/assets/images/58.png)
 
 ## Bugs Discovered
 
@@ -519,7 +523,7 @@ To clone the project from GitHub:
 ## Code
 
 - Book scaling on the home page. [https://css-tricks.com/snippets/jquery/equalize-heights-of-divs/](https://css-tricks.com/snippets/jquery/equalize-heights-of-divs/)
-- Heroku
+- Heroku - Depploiyment system used excellent tool supplying the website and connecting the information together with gitpod. [https://id.heroku.com/login] (https://www.heroku.com/)
 - Materialize – Colour coding from Materialize excellent source of colours and styling used on the webpage which help make it easier selecting the colours to match and styles. [https://materializecss.com/color.html](https://materializecss.com/color.html)
 - Materialize – Cards used for the books details and displaying purposes helping provide the information in a clean format for users to review. [https://materializecss.com/cards.html](https://materializecss.com/cards.html)
 - Purplemoss - [https://codepen.io/purplexmoss/pen/PoPyzMW](https://codepen.io/purplexmoss/pen/PoPyzMW) acknowledgement for the 400 error template page making the design look more improved if any errors occur. Via code pen
