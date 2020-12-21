@@ -22,7 +22,7 @@ mongo = PyMongo(app)
 
 @app.route('/file/<filename>')
 def file(filename):
-   return mongo.send_file(filename)
+    return mongo.send_file(filename)
 
 
 @app.route("/get_tasks")
@@ -197,11 +197,11 @@ def add_book():
             else:
                 return render_template("add_book.html")
         else:
-             flash("Only registered users can add books")
-             return redirect(url_for("get_books"))
+            flash("Only admin users can add books")
+        return redirect(url_for("get_books"))
     else:
-            flash("You must be logged in as admin to add a book.")
-            return redirect(url_for("login"))
+        flash("You must be logged in as admin to add a book.")
+    return redirect(url_for("login"))
 
 
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])
