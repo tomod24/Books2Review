@@ -120,6 +120,8 @@ The book idea come from my brother due to the knowledge given about how he works
 
 Dafont was a reliable webpage with interesting font to use therefore I have used the following (Badly Stamped). The font selected was from [www.dafont.com](http://www.dafont.com/) it was perfect and suited for the theme of the site. I had I searched through several fonts and believed this was an excellent font giving the site a different dynamic and edge. It had the style that I was looking for and gave the font a better design overall on the webpage. Examples have been provided below.
 
+when attempting to use the font for the website the font wasnt suitable for the website. As a result a more suitbale font was selected so the website wasnt impacted in a negative way. Due to wanting the site to be alot cleaner and simple for users the option to remove the badly stamped font was decided as the webiste the more simple it is the more appealing ti can be. Creating cleaner websites is the goal as they are alot better overall instead of a complex website where there is too much going on. As a result this decision was taken and the font-family: Nunito Sans, sans-serif was selected.
+
 ## Colours
 
 I used the colours selected above as the complicated each other. I searched several sites for good combinations of colours working well together giving a presence. The orange, white, dark grey and black worked very well for me. I believed the sight would be bright for the users and have specific criteria stand out where required. I tried several different colours to check and personally didn&#39;t find it appealing nor did it make an impact on the website when implementing the colour. The colours selected were popular across various sites such as [https://www.tailorbrands.com/blog/logo-color-combinations](https://www.tailorbrands.com/blog/logo-color-combinations). Therefore, as I had seen the colour group together and enjoyed the colours myself I decided it was best to use due to the presence it gave for the website idea and design.
@@ -359,7 +361,7 @@ I used the following websites and pasted my code into it to ensure the code had 
 
 ### Automated
 
-Jasmine testing would be ideal in testing the book website. As we have tested during the end process of the website and nearing the end of the requirement timescale the action cannot be completed. Due to time constraints and working on the other aspects of the game I couldn&#39;t pursue the possible requirement.
+Jasmine testing would be ideal in testing the book website. As we have tested during the end process of the website and nearing the end of the requirement the manual testing was suitable enough for the website.  This is due to the JavaScript on the site being minimal, only adjusting heights on the book detail page and get books page, therefore the investment in automated testing wouldn&#39;t be a beneficial action to be completed for the website. 
 
 ### Manual
 
@@ -447,41 +449,51 @@ Safety measure to be implemented when deleting reviews as there is no warning as
 
 # Deployment
 
-## Deploy to GitHub Pages
+## Connecting to MongoGo DB
 
-I developed this project using Gitpod. I would amend the website as required and submit my amends to GitHub via Gitpod by committing and pushing the changes to the server. This would be completed using the GitPod terminal.
+When setting up the website we used MONOGO DB as a reuslt a guide has been provided below any issues the link to MONGO DB has been provided to complete the set up required prior to the Heroku deployment. MONGO DB is a very reliable and useful databsae tool for the project requirements.
 
-- Log into [GitHub](https://github.com/)
-- Select &#39;Repositories&#39;, navigate to [Books 2 Review](https://github.com/tomod24/Books2Review) and select
-- Select the dropdown menu and your repositories if required
-- Select the settings tab under the repository title.
-- Scroll down to the GitHub pages section.
-- Select master branch the page reloads the website has now been deployed.
-- Scroll down the page after several seconds the information should state the site has been deployed in green and the link should be clickable taking you to your website. [https://github.com/tomod24/Books2Review](https://github.com/tomod24/Books2Review)
+- Register and Log into [MongoDB](https://www.mongodb.com/)
+- Create a new cluster
+- Select the region that applys to your region free or if there is a charge. If you can select a free region that will be the best option.
+- Once select scroll down checking the charges if any are applicable you can rename the cluster to a name of your choice.
+- Once you have signed up create a new project giving the decided name in relation to the project or call is cluser 1 if required
+- Once completed create the cluster, select your cluster and then follow the instructions then create a database.
+- Name the databse relevant to your project and provide the collection name.
+- From here the database allows you to various collections. Creating a collection can provide insert the documents necessary for a particualr type of database e.g. car manufacturer.
+- Once the database has been completed the access will be required to pull the information to the website tool being used e.g. GitPod. Under security add a new database user if its not completed already. Ensure the password authenitcation method has been select for this example. User name and password to be updated and read and write to any database selected.
+- Once the collection and user database access has been selected. The connection will be required on the system to connect the database to the gitpod.
+- Select the clusters dat storage and select connect. If the mongo shell is required to be installed follow the instructions to complete the connection.
+- Once completed you want to connect the applciation to your gitpod. Teh application code will be supplied and the password will be required and the dbname. this will be into the env.py file created. 
 
 ## Deploying the application to Heroku
 
-I developed this project using Gitpod. I would amend the website as required and submit my amends to GitHub via Gitpod by committing and pushing the changes to the server. This would be completed using the GitPod terminal.
+Heroku was used for the deployment of the website instructions have been supplied below to complete the action.
 
-- Log into [GitHub](https://github.com/)
-- Select &#39;Repositories&#39;, navigate to [Books 2 Review](https://github.com/tomod24/Books2Review) and select
-- Select the dropdown menu and your repositories if required
-- Select the settings tab under the repository title.
-- Scroll down to the GitHub pages section.
-- Select master branch the page reloads the website has now been deployed.
-- Scroll down the page after several seconds the information should state the site has been deployed in green and the link should be clickable taking you to your website. [https://github.com/tomod24/Books2Review](https://github.com/tomod24/Books2Review)
+- To deploy Books2Review to heroku, take the following steps:
+- Create a requirements.txt file using the terminal command pip freeze > requirements.txt.
+- Create a Procfile with the terminal command echo web: python app.py > Procfile.
+- Git add and git commit the new requirements and Procfile and then git push the project to GitPod.
+- Create a new app on the Heroku website by clicking the "New" button in your dashboard. Give it a name and set the region to Europe.
+- From the heroku dashboard of your newly created application, click on "Deploy" > "Deployment method" and select GitHub.
+- Confirm the linking of the heroku app to the correct GitHub repository.
+- In the heroku dashboard for the application, click on "Settings" > "Reveal Config Vars".
+- Set the following config vars:
 
-## Connecting to MongoGo DB
+| IP           | 0.0.0.0                                                                                             |
+|--------------|-----------------------------------------------------------------------------------------------------|
+| PORT         | 5000                                                                                                |
+| DEBUG        | FALSE                                                                                               |
+| SECRET_KEY   | your secret key mongo _db user   database                                                           |
+| MONGO_URI    | mongodb+srv://<username>:<password>@mybookdb.zflml.mongodb.net/<dbname>?retryWrites=true&w=majority |
+| MONGO_DBNAME | your mongo db_name                                                                                  |
 
-I developed this project using Gitpod. I would amend the website as required and submit my amends to GitHub via Gitpod by committing and pushing the changes to the server. This would be completed using the GitPod terminal.
+- To get you MONGO_URI read the MongoDB Atlas documentation [Heroku](https://docs.atlas.mongodb.com/getting-started) or refer to the mongodb guide below.
+- In the heroku dashboard, click "Deploy".
+- In the "Manual Deployment" section of this page, made sure the master branch is selected and then click "Deploy Branch".
+- The site is now successfully deployed.
 
-- Log into [GitHub](https://github.com/)
-- Select &#39;Repositories&#39;, navigate to [Books 2 Review](https://github.com/tomod24/Books2Review) and select
-- Select the dropdown menu and your repositories if required
-- Select the settings tab under the repository title.
-- Scroll down to the GitHub pages section.
-- Select master branch the page reloads the website has now been deployed.
-- Scroll down the page after several seconds the information should state the site has been deployed in green and the link should be clickable taking you to your website. [https://github.com/tomod24/Books2Review](https://github.com/tomod24/Books2Review)
+
 
 ## How to run the project locally
 
@@ -493,7 +505,10 @@ To clone the project from GitHub:
 4. Open your local IDE
 5. Change the current working directory to the location where you want the cloned directory to be made
 6. Type in git clone paste the URL copied from earlier (step 3) alongside the git command.
-7. Press Enter, and the clone should subsequently be created
+7. Press Enter, and the clone should subsequently be created.
+8. Once the workspace has been completed create newfile env.py file with the variables table mentioned in mongoDB (Please obtain the correct details in the guide.
+9. Action/Run pip3 install -r requirements.txt to update the file and requirements.
+10. Run the tool with phython3 app.py
 
 ## How to download github files and upload
 
@@ -501,11 +516,7 @@ To clone the project from GitHub:
 
 1. Click the following link for the [GitHub repository](https://github.com/tomod24/Books2Review).
 2. Click on the code button
-3. A dropdown window will appear titled &#39;Clone with HTTPS&#39; - copy the link provided in the field below
-4. Open your local IDE
-5. Change the current working directory to the location where you want the cloned directory to be made
-6. Type in git clone paste the URL copied from earlier (step 3) alongside the git command.
-7. Press Enter, and the clone should subsequently be created
+3. Click the download ZIP to download a copy of the files on the repo
 
 **Credits**
 
