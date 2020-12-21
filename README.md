@@ -441,7 +441,7 @@ DesktopAccessibility Improved Lighthouse Results
 
 - Safety measure to be implemented when deleting reviews as there is no warning asking are they sure on the system.
 - Users having the ability to delete books as it would need an approval response therefore easier for the admin to ahve full contorl over deleting books if required.
-- Book sizing has been sutied to the card size any image off scale or incorrectly would need size adjustments made into what size the image should be. This would prevent users uploading any size and fix scaling issues. Otherwise this could be removed.
+- Book sizing has been sutied to the card size any image off scale or incorrectly would need size adjustments made into what size the image should be. This would prevent users uploading any size and fix scaling issues. Otherwise this could be removed. This was the .card section amending the attributes to display as required.
 
 # Deployment
 
