@@ -65,7 +65,7 @@ Books 2 Review is a database website where users/clients can provide a review fo
 
 ## Project objectives
 
-**Books 2 Review&#39;s main objective is to allow users to add reviews and books they have read. This is for all users who sign up to the website to share reviews and also read others readers thoughts and feelings on a book. The user will also be able to edit and delete reviews. Including books if they have not been added to the website and provide a review.**
+**Books 2 Review&#39;s main objective is to allow users to add reviews and books they have read. This is for all users who sign up to the website to share reviews and also read others readers thoughts and feelings on a book. The user will also be able to edit and delete reviews. Only admin can add books to the website. This will be for site functionality and the site being controlled by admin personal.**
 
 ## User Goals
 
