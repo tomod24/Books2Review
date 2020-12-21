@@ -45,7 +45,7 @@ input[type=file] {
     max-width: 100%;
     width: auto;
     margin: 0 auto;
-    height: center;
+    height: auto;
 }
 /*switch margin*/
 .switch {
