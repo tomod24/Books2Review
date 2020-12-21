@@ -466,7 +466,7 @@ When setting up the website we used MONOGO DB as a reuslt a guide has been provi
 - Select the clusters dat storage and select connect. If the mongo shell is required to be installed follow the instructions to complete the connection.
 - Once completed you want to connect the applciation to your gitpod. Teh application code will be supplied and the password will be required and the dbname. this will be into the env.py file created. 
 
-## Deploying the application to Heroku
+## Deploying the Application to Heroku
 
 Heroku was used for the deployment of the website instructions have been supplied below to complete the action.
 
@@ -480,8 +480,9 @@ Heroku was used for the deployment of the website instructions have been supplie
 - In the heroku dashboard for the application, click on "Settings" > "Reveal Config Vars".
 - Set the following config vars:
 
-| IP           | 0.0.0.0                                                                                             |
+| Key          | Value                                                                                               |
 |--------------|-----------------------------------------------------------------------------------------------------|
+| IP           | 0.0.0.0                                                                                             |
 | PORT         | 5000                                                                                                |
 | DEBUG        | FALSE                                                                                               |
 | SECRET_KEY   | your secret key mongo _db user   database                                                           |
@@ -492,7 +493,6 @@ Heroku was used for the deployment of the website instructions have been supplie
 - In the heroku dashboard, click "Deploy".
 - In the "Manual Deployment" section of this page, made sure the master branch is selected and then click "Deploy Branch".
 - The site is now successfully deployed.
-
 
 
 ## How to run the project locally
