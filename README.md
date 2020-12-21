@@ -442,6 +442,7 @@ DesktopAccessibility Improved Lighthouse Results
 - Safety measure to be implemented when deleting reviews as there is no warning asking are they sure on the system.
 - Users having the ability to delete books as it would need an approval response therefore easier for the admin to ahve full contorl over deleting books if required.
 - Book sizing has been sutied to the card size any image off scale or incorrectly would need size adjustments made into what size the image should be. This would prevent users uploading any size and fix scaling issues. Otherwise this could be removed. This was the .card section amending the attributes to display as required.
+- Manage reviews was provided on the website for admin suers only as this has not been set up completelty this produces a 500 error. The section will be for manageing reviews and books also.  This will be completed as a future update. As there is no information to be supplied this will provide an error. The future purpose will be to ensure users have reviews deleted and confirmed. In addition books being deleted will display therefore the site would be renamed to admin managing. The reviews admin has been moved to the users profile instead. As this was more of a suitable location.
 
 # Deployment
 
